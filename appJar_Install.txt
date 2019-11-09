@@ -1,0 +1,4 @@
+
+sudo pip3 install appjar
+
+sudo pip3 install appjar --upgrade

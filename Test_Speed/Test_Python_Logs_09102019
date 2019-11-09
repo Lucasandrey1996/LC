@@ -1,0 +1,1000 @@
+After  0.02142500877380371 sec
+Output state is 0
+Number of loops =  299
+After  0.031220436096191406 sec
+Output state is 1
+Number of loops =  291
+After  0.041304588317871094 sec
+Output state is 0
+Test 2 execution time =  0.04223966598510742
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.01708698272705078
+ 
+Test 1 begin after  8.7738037109375e-05 sec
+After  0.0007476806640625 sec
+Initial output state is 0
+After  0.011795520782470703 sec
+Output state is 1
+After  0.023271799087524414 sec
+Output state is 0
+After  0.0347447395324707 sec
+Output state is 1
+After  0.04618263244628906 sec
+Output state is 0
+Test 1 execution time =  0.047414302825927734
+ 
+Test 2 begin after  6.937980651855469e-05 sec
+After  0.0008471012115478516 sec
+Initial output state is 0
+Number of loops =  338
+After  0.011375665664672852 sec
+Output state is 1
+Number of loops =  314
+After  0.02134537696838379 sec
+Output state is 0
+Number of loops =  316
+After  0.03132438659667969 sec
+Output state is 1
+Number of loops =  316
+After  0.04139566421508789 sec
+Output state is 0
+Test 2 execution time =  0.04230356216430664
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.01747417449951172
+ 
+Test 1 begin after  8.440017700195312e-05 sec
+After  0.0007631778717041016 sec
+Initial output state is 0
+After  0.011905908584594727 sec
+Output state is 1
+After  0.023336172103881836 sec
+Output state is 0
+After  0.034894704818725586 sec
+Output state is 1
+After  0.046511173248291016 sec
+Output state is 0
+Test 1 execution time =  0.047782182693481445
+ 
+Test 2 begin after  7.62939453125e-05 sec
+After  0.0007586479187011719 sec
+Initial output state is 0
+Number of loops =  331
+After  0.011421918869018555 sec
+Output state is 1
+Number of loops =  298
+After  0.02129650115966797 sec
+Output state is 0
+Number of loops =  306
+After  0.031348228454589844 sec
+Output state is 1
+Number of loops =  302
+After  0.041287899017333984 sec
+Output state is 0
+Test 2 execution time =  0.04226112365722656
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.01745891571044922
+ 
+Test 1 begin after  9.417533874511719e-05 sec
+After  0.0007741451263427734 sec
+Initial output state is 0
+After  0.011831283569335938 sec
+Output state is 1
+After  0.023131608963012695 sec
+Output state is 0
+After  0.0345461368560791 sec
+Output state is 1
+After  0.04594707489013672 sec
+Output state is 0
+Test 1 execution time =  0.04715394973754883
+ 
+Test 2 begin after  8.654594421386719e-05 sec
+After  0.0007760524749755859 sec
+Initial output state is 0
+Number of loops =  329
+After  0.01126408576965332 sec
+Output state is 1
+Number of loops =  305
+After  0.021236896514892578 sec
+Output state is 0
+Number of loops =  308
+After  0.0312192440032959 sec
+Output state is 1
+Number of loops =  305
+After  0.04121971130371094 sec
+Output state is 0
+Test 2 execution time =  0.042429447174072266
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.017874956130981445
+ 
+Test 1 begin after  8.916854858398438e-05 sec
+After  0.0010335445404052734 sec
+Initial output state is 0
+After  0.01224827766418457 sec
+Output state is 1
+After  0.023745059967041016 sec
+Output state is 0
+After  0.03539776802062988 sec
+Output state is 1
+After  0.04691743850708008 sec
+Output state is 0
+Test 1 execution time =  0.0482027530670166
+ 
+Test 2 begin after  7.677078247070312e-05 sec
+After  0.0007882118225097656 sec
+Initial output state is 0
+Number of loops =  323
+After  0.011402368545532227 sec
+Output state is 1
+Number of loops =  296
+After  0.02129364013671875 sec
+Output state is 0
+Number of loops =  301
+After  0.031194448471069336 sec
+Output state is 1
+Number of loops =  300
+After  0.04133892059326172 sec
+Output state is 0
+Test 2 execution time =  0.04242539405822754
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.01776123046875
+ 
+Test 1 begin after  9.059906005859375e-05 sec
+After  0.0009546279907226562 sec
+Initial output state is 0
+After  0.012149572372436523 sec
+Output state is 1
+After  0.023668527603149414 sec
+Output state is 0
+After  0.035199642181396484 sec
+Output state is 1
+After  0.046859025955200195 sec
+Output state is 0
+Test 1 execution time =  0.04815077781677246
+ 
+Test 2 begin after  7.700920104980469e-05 sec
+After  0.0007786750793457031 sec
+Initial output state is 0
+Number of loops =  316
+After  0.012038469314575195 sec
+Output state is 1
+Number of loops =  233
+After  0.02141571044921875 sec
+Output state is 0
+Number of loops =  291
+After  0.031076431274414062 sec
+Output state is 1
+Number of loops =  302
+After  0.041278839111328125 sec
+Output state is 0
+Test 2 execution time =  0.04234170913696289
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.035364389419555664
+ 
+Test 1 begin after  0.0001304149627685547 sec
+After  0.000982522964477539 sec
+Initial output state is 0
+After  0.012458562850952148 sec
+Output state is 1
+After  0.024548768997192383 sec
+Output state is 0
+After  0.03716850280761719 sec
+Output state is 1
+After  0.049163103103637695 sec
+Output state is 0
+Test 1 execution time =  0.05051159858703613
+ 
+Test 2 begin after  8.130073547363281e-05 sec
+After  0.0009236335754394531 sec
+Initial output state is 0
+Number of loops =  271
+After  0.011369943618774414 sec
+Output state is 1
+Number of loops =  253
+After  0.021347761154174805 sec
+Output state is 0
+Number of loops =  233
+After  0.03167462348937988 sec
+Output state is 1
+Number of loops =  217
+After  0.04259204864501953 sec
+Output state is 0
+Test 2 execution time =  0.045699119567871094
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.02922368049621582
+ 
+Test 1 begin after  0.0001499652862548828 sec
+After  0.01200246810913086 sec
+Initial output state is 0
+After  0.02343130111694336 sec
+Output state is 1
+After  0.03480672836303711 sec
+Output state is 0
+After  0.04654049873352051 sec
+Output state is 1
+After  0.058473825454711914 sec
+Output state is 0
+Test 1 execution time =  0.06039905548095703
+ 
+Test 2 begin after  9.72747802734375e-05 sec
+After  0.0009174346923828125 sec
+Initial output state is 0
+Number of loops =  275
+After  0.011533021926879883 sec
+Output state is 1
+Number of loops =  211
+After  0.02190566062927246 sec
+Output state is 0
+Number of loops =  204
+After  0.032645463943481445 sec
+Output state is 1
+Number of loops =  140
+After  0.04170393943786621 sec
+Output state is 0
+Test 2 execution time =  0.04277610778808594
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.026202678680419922
+ 
+Test 1 begin after  9.989738464355469e-05 sec
+After  0.0009086132049560547 sec
+Initial output state is 0
+After  0.012604236602783203 sec
+Output state is 1
+After  0.030837535858154297 sec
+Output state is 0
+After  0.043493032455444336 sec
+Output state is 1
+After  0.05798602104187012 sec
+Output state is 0
+Test 1 execution time =  0.06442666053771973
+ 
+Test 2 begin after  0.00011301040649414062 sec
+After  0.0009679794311523438 sec
+Initial output state is 0
+Number of loops =  269
+After  0.01145172119140625 sec
+Output state is 1
+Number of loops =  255
+After  0.02137279510498047 sec
+Output state is 0
+Number of loops =  192
+After  0.03380632400512695 sec
+Output state is 1
+Number of loops =  108
+After  0.04547739028930664 sec
+Output state is 0
+Test 2 execution time =  0.05116081237792969
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.0411832332611084
+ 
+Test 1 begin after  0.00011610984802246094 sec
+After  0.0009169578552246094 sec
+Initial output state is 0
+After  0.012787103652954102 sec
+Output state is 1
+After  0.02433943748474121 sec
+Output state is 0
+After  0.03615236282348633 sec
+Output state is 1
+After  0.048065185546875 sec
+Output state is 0
+Test 1 execution time =  0.049376726150512695
+ 
+Test 2 begin after  7.605552673339844e-05 sec
+After  0.0008389949798583984 sec
+Initial output state is 0
+Number of loops =  270
+After  0.011287450790405273 sec
+Output state is 1
+Number of loops =  257
+After  0.02107405662536621 sec
+Output state is 0
+Number of loops =  174
+After  0.0322873592376709 sec
+Output state is 1
+Number of loops =  124
+After  0.04386162757873535 sec
+Output state is 0
+Test 2 execution time =  0.04627680778503418
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.031463623046875
+ 
+Test 1 begin after  0.00013208389282226562 sec
+After  0.0009779930114746094 sec
+Initial output state is 0
+After  0.01327371597290039 sec
+Output state is 1
+After  0.02663564682006836 sec
+Output state is 0
+After  0.04209017753601074 sec
+Output state is 1
+After  0.053913116455078125 sec
+Output state is 0
+Test 1 execution time =  0.05527329444885254
+ 
+Test 2 begin after  0.00013399124145507812 sec
+After  0.0011234283447265625 sec
+Initial output state is 0
+Number of loops =  173
+After  0.011803627014160156 sec
+Output state is 1
+Number of loops =  143
+After  0.02227640151977539 sec
+Output state is 0
+Number of loops =  207
+After  0.031226158142089844 sec
+Output state is 1
+Number of loops =  133
+After  0.04427814483642578 sec
+Output state is 0
+Test 2 execution time =  0.04564166069030762
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.031107187271118164
+ 
+Test 1 begin after  8.988380432128906e-05 sec
+After  0.0008745193481445312 sec
+Initial output state is 0
+After  0.0126495361328125 sec
+Output state is 1
+After  0.024617671966552734 sec
+Output state is 0
+After  0.03621816635131836 sec
+Output state is 1
+After  0.047769784927368164 sec
+Output state is 0
+Test 1 execution time =  0.04944324493408203
+ 
+Test 2 begin after  8.702278137207031e-05 sec
+After  0.0023343563079833984 sec
+Initial output state is 0
+Number of loops =  162
+After  0.012312889099121094 sec
+Output state is 1
+Number of loops =  197
+After  0.023591041564941406 sec
+Output state is 0
+Number of loops =  178
+After  0.03083515167236328 sec
+Output state is 1
+Number of loops =  176
+After  0.04303169250488281 sec
+Output state is 0
+Test 2 execution time =  0.044472694396972656
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.0322723388671875
+ 
+Test 1 begin after  0.00012159347534179688 sec
+After  0.0010025501251220703 sec
+Initial output state is 0
+After  0.012507200241088867 sec
+Output state is 1
+After  0.024883031845092773 sec
+Output state is 0
+After  0.03639626502990723 sec
+Output state is 1
+After  0.04800987243652344 sec
+Output state is 0
+Test 1 execution time =  0.051233768463134766
+ 
+Test 2 begin after  0.00011157989501953125 sec
+After  0.0009360313415527344 sec
+Initial output state is 0
+Number of loops =  237
+After  0.011631011962890625 sec
+Output state is 1
+Number of loops =  203
+After  0.02395915985107422 sec
+Output state is 0
+Number of loops =  61
+After  0.034247398376464844 sec
+Output state is 1
+Number of loops =  94
+After  0.04172873497009277 sec
+Output state is 0
+Test 2 execution time =  0.04816150665283203
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.031867265701293945
+ 
+Test 1 begin after  0.00010323524475097656 sec
+After  0.0012774467468261719 sec
+Initial output state is 0
+After  0.01299285888671875 sec
+Output state is 1
+After  0.02723836898803711 sec
+Output state is 0
+After  0.03888988494873047 sec
+Output state is 1
+After  0.050642967224121094 sec
+Output state is 0
+Test 1 execution time =  0.052549123764038086
+ 
+Test 2 begin after  0.00010156631469726562 sec
+After  0.0032248497009277344 sec
+Initial output state is 0
+Number of loops =  144
+After  0.011995315551757812 sec
+Output state is 1
+Number of loops =  198
+After  0.021924257278442383 sec
+Output state is 0
+Number of loops =  223
+After  0.03167128562927246 sec
+Output state is 1
+Number of loops =  191
+After  0.04239821434020996 sec
+Output state is 0
+Test 2 execution time =  0.04401087760925293
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.03268837928771973
+ 
+Test 1 begin after  0.00011444091796875 sec
+After  0.0008466243743896484 sec
+Initial output state is 0
+After  0.012102365493774414 sec
+Output state is 1
+After  0.024893760681152344 sec
+Output state is 0
+After  0.03931069374084473 sec
+Output state is 1
+After  0.05315685272216797 sec
+Output state is 0
+Test 1 execution time =  0.05974745750427246
+ 
+Test 2 begin after  0.00010538101196289062 sec
+After  0.0008854866027832031 sec
+Initial output state is 0
+Number of loops =  272
+After  0.01084756851196289 sec
+Output state is 1
+Number of loops =  252
+After  0.022367000579833984 sec
+Output state is 0
+Number of loops =  169
+After  0.034195899963378906 sec
+Output state is 1
+Number of loops =  149
+After  0.04334521293640137 sec
+Output state is 0
+Test 2 execution time =  0.0452115535736084
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.04125261306762695
+ 
+Test 1 begin after  0.00015783309936523438 sec
+After  0.0022363662719726562 sec
+Initial output state is 0
+After  0.016160249710083008 sec
+Output state is 1
+After  0.03244328498840332 sec
+Output state is 0
+After  0.044634342193603516 sec
+Output state is 1
+After  0.05739927291870117 sec
+Output state is 0
+Test 1 execution time =  0.060092926025390625
+ 
+Test 2 begin after  0.000247955322265625 sec
+After  0.0014882087707519531 sec
+Initial output state is 0
+Number of loops =  103
+After  0.013962268829345703 sec
+Output state is 1
+Number of loops =  26
+After  0.021856069564819336 sec
+Output state is 0
+Number of loops =  147
+After  0.031705379486083984 sec
+Output state is 1
+Number of loops =  28
+After  0.041728973388671875 sec
+Output state is 0
+Test 2 execution time =  0.0442655086517334
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.030434131622314453
+ 
+Test 1 begin after  9.72747802734375e-05 sec
+After  0.0008845329284667969 sec
+Initial output state is 0
+After  0.012822628021240234 sec
+Output state is 1
+After  0.024638652801513672 sec
+Output state is 0
+After  0.0400242805480957 sec
+Output state is 1
+After  0.05208444595336914 sec
+Output state is 0
+Test 1 execution time =  0.053676605224609375
+ 
+Test 2 begin after  7.867813110351562e-05 sec
+After  0.0008466243743896484 sec
+Initial output state is 0
+Number of loops =  177
+After  0.019373178482055664 sec
+Output state is 1
+Number of loops =  0
+After  0.02120494842529297 sec
+Output state is 0
+Number of loops =  171
+After  0.06032562255859375 sec
+Output state is 1
+Number of loops =  0
+After  0.062494516372680664 sec
+Output state is 0
+Test 2 execution time =  0.06371188163757324
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.032297372817993164
+ 
+Test 1 begin after  9.083747863769531e-05 sec
+After  0.0008721351623535156 sec
+Initial output state is 0
+After  0.012462615966796875 sec
+Output state is 1
+After  0.026759862899780273 sec
+Output state is 0
+After  0.03876376152038574 sec
+Output state is 1
+After  0.05168914794921875 sec
+Output state is 0
+Test 1 execution time =  0.05421924591064453
+ 
+Test 2 begin after  0.0001621246337890625 sec
+After  0.0023419857025146484 sec
+Initial output state is 0
+Number of loops =  176
+After  0.012001991271972656 sec
+Output state is 1
+Number of loops =  151
+After  0.02136373519897461 sec
+Output state is 0
+Number of loops =  246
+After  0.032100677490234375 sec
+Output state is 1
+Number of loops =  197
+After  0.04128861427307129 sec
+Output state is 0
+Test 2 execution time =  0.04238295555114746
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.02572011947631836
+ 
+Test 1 begin after  0.0001125335693359375 sec
+After  0.0010466575622558594 sec
+Initial output state is 0
+After  0.012721061706542969 sec
+Output state is 1
+After  0.024399280548095703 sec
+Output state is 0
+After  0.04017210006713867 sec
+Output state is 1
+After  0.05656099319458008 sec
+Output state is 0
+Test 1 execution time =  0.0594484806060791
+ 
+Test 2 begin after  0.0001010894775390625 sec
+After  0.0026667118072509766 sec
+Initial output state is 0
+Number of loops =  176
+After  0.011710166931152344 sec
+Output state is 1
+Number of loops =  66
+After  0.02256298065185547 sec
+Output state is 0
+Number of loops =  175
+After  0.03663778305053711 sec
+Output state is 1
+Number of loops =  77
+After  0.04189944267272949 sec
+Output state is 0
+Test 2 execution time =  0.04297828674316406
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.031279802322387695
+ 
+Test 1 begin after  0.0001251697540283203 sec
+After  0.0011222362518310547 sec
+Initial output state is 0
+After  0.012703895568847656 sec
+Output state is 1
+After  0.02471637725830078 sec
+Output state is 0
+After  0.03685593605041504 sec
+Output state is 1
+After  0.05092334747314453 sec
+Output state is 0
+Test 1 execution time =  0.05266213417053223
+ 
+Test 2 begin after  0.00010776519775390625 sec
+After  0.0011200904846191406 sec
+Initial output state is 0
+Number of loops =  211
+After  0.011723756790161133 sec
+Output state is 1
+Number of loops =  163
+After  0.024626970291137695 sec
+Output state is 0
+Number of loops =  90
+After  0.03142881393432617 sec
+Output state is 1
+Number of loops =  95
+After  0.0421907901763916 sec
+Output state is 0
+Test 2 execution time =  0.043921709060668945
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.022145748138427734
+ 
+Test 1 begin after  0.00010204315185546875 sec
+After  0.000934600830078125 sec
+Initial output state is 0
+After  0.012353181838989258 sec
+Output state is 1
+After  0.02438497543334961 sec
+Output state is 0
+After  0.03783988952636719 sec
+Output state is 1
+After  0.05139756202697754 sec
+Output state is 0
+Test 1 execution time =  0.05302572250366211
+ 
+Test 2 begin after  0.0001316070556640625 sec
+After  0.0010232925415039062 sec
+Initial output state is 0
+Number of loops =  150
+After  0.01138448715209961 sec
+Output state is 1
+Number of loops =  167
+After  0.023012638092041016 sec
+Output state is 0
+Number of loops =  158
+After  0.03175926208496094 sec
+Output state is 1
+Number of loops =  101
+After  0.04159045219421387 sec
+Output state is 0
+Test 2 execution time =  0.04275178909301758
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.03424406051635742
+ 
+Test 1 begin after  9.751319885253906e-05 sec
+After  0.0009183883666992188 sec
+Initial output state is 0
+After  0.012374162673950195 sec
+Output state is 1
+After  0.024086475372314453 sec
+Output state is 0
+After  0.03829693794250488 sec
+Output state is 1
+After  0.05015921592712402 sec
+Output state is 0
+Test 1 execution time =  0.051668405532836914
+ 
+Test 2 begin after  0.0003559589385986328 sec
+After  0.001295328140258789 sec
+Initial output state is 0
+Number of loops =  198
+After  0.011457681655883789 sec
+Output state is 1
+Number of loops =  218
+After  0.021758079528808594 sec
+Output state is 0
+Number of loops =  202
+After  0.03259897232055664 sec
+Output state is 1
+Number of loops =  77
+After  0.041088104248046875 sec
+Output state is 0
+Test 2 execution time =  0.04251813888549805
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.031982421875
+ 
+Test 1 begin after  9.34600830078125e-05 sec
+After  0.000978231430053711 sec
+Initial output state is 0
+After  0.012445688247680664 sec
+Output state is 1
+After  0.024343013763427734 sec
+Output state is 0
+After  0.038099050521850586 sec
+Output state is 1
+After  0.04968452453613281 sec
+Output state is 0
+Test 1 execution time =  0.05167794227600098
+ 
+Test 2 begin after  0.00010704994201660156 sec
+After  0.0019164085388183594 sec
+Initial output state is 0
+Number of loops =  158
+After  0.011722803115844727 sec
+Output state is 1
+Number of loops =  193
+After  0.02246403694152832 sec
+Output state is 0
+Number of loops =  197
+After  0.03145718574523926 sec
+Output state is 1
+Number of loops =  201
+After  0.04233407974243164 sec
+Output state is 0
+Test 2 execution time =  0.04351663589477539
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.025461435317993164
+ 
+Test 1 begin after  0.0001614093780517578 sec
+After  0.0011489391326904297 sec
+Initial output state is 0
+After  0.013060569763183594 sec
+Output state is 1
+After  0.03251218795776367 sec
+Output state is 0
+After  0.04619407653808594 sec
+Output state is 1
+After  0.061873435974121094 sec
+Output state is 0
+Test 1 execution time =  0.06331157684326172
+ 
+Test 2 begin after  6.985664367675781e-05 sec
+After  0.0009267330169677734 sec
+Initial output state is 0
+Number of loops =  223
+After  0.01101231575012207 sec
+Output state is 1
+Number of loops =  150
+After  0.021819591522216797 sec
+Output state is 0
+Number of loops =  163
+After  0.03564310073852539 sec
+Output state is 1
+Number of loops =  106
+After  0.04141521453857422 sec
+Output state is 0
+Test 2 execution time =  0.04248619079589844
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.02674388885498047
+ 
+Test 1 begin after  0.00014162063598632812 sec
+After  0.004917144775390625 sec
+Initial output state is 0
+After  0.018088340759277344 sec
+Output state is 1
+After  0.02970719337463379 sec
+Output state is 0
+After  0.04131603240966797 sec
+Output state is 1
+After  0.05519843101501465 sec
+Output state is 0
+Test 1 execution time =  0.058138370513916016
+ 
+Test 2 begin after  0.0001049041748046875 sec
+After  0.0011086463928222656 sec
+Initial output state is 0
+Number of loops =  238
+After  0.011681079864501953 sec
+Output state is 1
+Number of loops =  219
+After  0.022777795791625977 sec
+Output state is 0
+Number of loops =  196
+After  0.033892154693603516 sec
+Output state is 1
+Number of loops =  151
+After  0.04109477996826172 sec
+Output state is 0
+Test 2 execution time =  0.04231071472167969
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.026189088821411133
+ 
+Test 1 begin after  0.00011801719665527344 sec
+After  0.0009598731994628906 sec
+Initial output state is 0
+After  0.012308835983276367 sec
+Output state is 1
+After  0.02402019500732422 sec
+Output state is 0
+After  0.037598371505737305 sec
+Output state is 1
+After  0.054976463317871094 sec
+Output state is 0
+Test 1 execution time =  0.05638456344604492
+ 
+Test 2 begin after  7.009506225585938e-05 sec
+After  0.000982522964477539 sec
+Initial output state is 0
+Number of loops =  232
+After  0.011750936508178711 sec
+Output state is 1
+Number of loops =  153
+After  0.022597789764404297 sec
+Output state is 0
+Number of loops =  194
+After  0.034433841705322266 sec
+Output state is 1
+Number of loops =  113
+After  0.04149675369262695 sec
+Output state is 0
+Test 2 execution time =  0.04255199432373047
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.030165433883666992
+ 
+Test 1 begin after  0.00011563301086425781 sec
+After  0.0009913444519042969 sec
+Initial output state is 0
+After  0.012635231018066406 sec
+Output state is 1
+After  0.030028581619262695 sec
+Output state is 0
+After  0.04167294502258301 sec
+Output state is 1
+After  0.05437040328979492 sec
+Output state is 0
+Test 1 execution time =  0.057294368743896484
+ 
+Test 2 begin after  0.00012302398681640625 sec
+After  0.0013663768768310547 sec
+Initial output state is 0
+Number of loops =  240
+After  0.014584541320800781 sec
+Output state is 1
+Number of loops =  123
+After  0.022330760955810547 sec
+Output state is 0
+Number of loops =  45
+After  0.033542633056640625 sec
+Output state is 1
+Number of loops =  167
+After  0.04157757759094238 sec
+Output state is 0
+Test 2 execution time =  0.04557633399963379
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.03878641128540039
+ 
+Test 1 begin after  0.00017595291137695312 sec
+After  0.0013706684112548828 sec
+Initial output state is 0
+After  0.012883424758911133 sec
+Output state is 1
+After  0.02454519271850586 sec
+Output state is 0
+After  0.03652834892272949 sec
+Output state is 1
+After  0.04874110221862793 sec
+Output state is 0
+Test 1 execution time =  0.05104517936706543
+ 
+Test 2 begin after  0.0001342296600341797 sec
+After  0.0010750293731689453 sec
+Initial output state is 0
+Number of loops =  241
+After  0.013561010360717773 sec
+Output state is 1
+Number of loops =  81
+After  0.021829843521118164 sec
+Output state is 0
+Number of loops =  191
+After  0.03516030311584473 sec
+Output state is 1
+Number of loops =  129
+After  0.04082894325256348 sec
+Output state is 0
+Test 2 execution time =  0.04255366325378418
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.03500533103942871
+ 
+Test 1 begin after  0.00010371208190917969 sec
+After  0.0009222030639648438 sec
+Initial output state is 0
+After  0.012625932693481445 sec
+Output state is 1
+After  0.02527618408203125 sec
+Output state is 0
+After  0.0368800163269043 sec
+Output state is 1
+After  0.04869866371154785 sec
+Output state is 0
+Test 1 execution time =  0.050139427185058594
+ 
+Test 2 begin after  9.441375732421875e-05 sec
+After  0.0011096000671386719 sec
+Initial output state is 0
+Number of loops =  108
+After  0.011812210083007812 sec
+Output state is 1
+Number of loops =  134
+After  0.025603055953979492 sec
+Output state is 0
+Number of loops =  0
+After  0.042516231536865234 sec
+Output state is 1
+Number of loops =  0
+After  0.046004295349121094 sec
+Output state is 0
+Test 2 execution time =  0.04723072052001953
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.02895832061767578
+ 
+Test 1 begin after  0.00012636184692382812 sec
+After  0.0009541511535644531 sec
+Initial output state is 0
+After  0.012412309646606445 sec
+Output state is 1
+After  0.02394890785217285 sec
+Output state is 0
+After  0.03675484657287598 sec
+Output state is 1
+After  0.0525205135345459 sec
+Output state is 0
+Test 1 execution time =  0.05422329902648926
+ 
+Test 2 begin after  0.00011229515075683594 sec
+After  0.0027933120727539062 sec
+Initial output state is 0
+Number of loops =  65
+After  0.011361360549926758 sec
+Output state is 1
+Number of loops =  148
+After  0.022741079330444336 sec
+Output state is 0
+Number of loops =  140
+After  0.03327441215515137 sec
+Output state is 1
+Number of loops =  80
+After  0.042083740234375 sec
+Output state is 0
+Test 2 execution time =  0.04320168495178223
+>>> %Run Test_Python.py
+delay =  0.01 sec
+Init execution time =  0.028929710388183594
+ 
+Test 1 begin after  0.00012373924255371094 sec
+After  0.0012063980102539062 sec
+Initial output state is 0
+After  0.012707710266113281 sec
+Output state is 1
+After  0.02466726303100586 sec
+Output state is 0
+After  0.03917121887207031 sec
+Output state is 1
+After  0.05625581741333008 sec
+Output state is 0
+Test 1 execution time =  0.05786585807800293
+ 
+Test 2 begin after  8.654594421386719e-05 sec
+After  0.0008921623229980469 sec
+Initial output state is 0
+Number of loops =  273
+After  0.011408090591430664 sec
+Output state is 1
+Number of loops =  227
+After  0.022643089294433594 sec
+Output state is 0
+Number of loops =  204
+After  0.0358891487121582 sec
+Output state is 1
+Number of loops =  86
+After  0.04136085510253906 sec
+Output state is 0
+Test 2 execution time =  0.04260897636413574
+>>> 
