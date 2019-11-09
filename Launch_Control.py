@@ -4,7 +4,9 @@ from gpiozero import LED, Button
 from time import sleep, time
 
 
+#-------------------------------------------------------------------
 #definition des E/S
+#-------------------------------------------------------------------
 # Avertisseurs lumineux & sonores
 LP1_r = LED(4)
 LP2_r = LED(17)
@@ -28,8 +30,9 @@ EA_b = LED(18)
 RP_r = LED(19)
 RP_b = LED(16)
 
-
-# definition des callback
+#-------------------------------------------------------------------
+# definition des Fonctions
+#-------------------------------------------------------------------
 
 # fonction sleep maison
 def MySleep(delay, T_init):
@@ -37,6 +40,7 @@ def MySleep(delay, T_init):
     while ((T_init+delay)>time()):
         i=i+1
 #     print(time())
+#     print(time()-T_init)
 #     print(T_init)
 #     print(delay)
     return i
@@ -86,7 +90,49 @@ def Start_blue():
     ready = 1
     app_Start_blue.stop()
     
-# gestion du départ   
+
+# test si l'entrée numérique est valide
+def validNumEntry(c):
+    global error
+    try:
+        r = float(c)
+        return r
+    except ValueError:
+        error=1
+        return 0
+
+# affiche les variables dans la console   
+def PrintVar():
+    global qualif
+    global couleur
+    global avance_s
+    global ready
+    global error
+    print(" ")
+    print("Check variables")
+    print("-couleur   = ",couleur)
+    print("-qualif    = ",qualif)
+    print("-avance [s]= ",avance_s)
+    print("-ready     = ",ready)
+    print("-Error     = ",error)
+    
+def maxmin_avance():
+    global avance_s
+    error = 0
+    max_s = 2 #secondes
+    min_s = 0.01 #secondes
+    if avance_s>max_s:
+        avance_s=max_s
+    elif avance_s<min_s:
+        avance_s=min_s
+    else:
+        error=0
+    return error
+
+
+#-------------------------------------------------------------------
+# gestion du départ
+#-------------------------------------------------------------------
 def Launch():
     # define globals variables
     global qualif
@@ -122,10 +168,12 @@ def Launch():
     delay=0.5
     init_time=time()
     
+    #Si le départ est simultané
     if qualif==1:
         #séquence de départ en phase de qualification
         SP.on()
         
+        #Lampe 1
         LP1_r.on()
         LP1_b.on()
         BUZ_r.on()
@@ -135,6 +183,7 @@ def Launch():
         BUZ_b.off()
         MySleep(delay*2,init_time)
         
+        #Lampe 2
         LP2_r.on()
         LP2_b.on()
         BUZ_r.on()
@@ -144,6 +193,7 @@ def Launch():
         BUZ_b.off()
         MySleep(delay*4,init_time)
         
+        #Lampe 3
         LP3_r.on()
         LP3_b.on()
         BUZ_r.on()
@@ -153,6 +203,7 @@ def Launch():
         BUZ_b.off()
         MySleep(delay*6,init_time)
         
+        #Lampe 4
         LP4_r.on()
         LP4_b.on()
         BUZ_r.on()
@@ -167,36 +218,151 @@ def Launch():
         
         BUZ_r.off()
         BUZ_b.off()
+        SP.off()
+        
+    else:
+        r0=0; r1=0; r2=0; r3=0; r4=0; r5=0; r6=0; r8=0
+        b0=0; b1=0; b2=0; b3=0; b4=0; b5=0; b6=0; b8=0
+        x=0
+        marge=4
+        decalage_s=avance_s/2
+        print(decalage_s)
+        MySleep(delay*marge/2,init_time) # pour éviter un
         SP.on()
+        while x==0:
+            
+            # gestion des GPIOs du coté rouge
+            #-------------------------------------------------------------------
+            #After 0 delay for rouge
+            if ((init_time+(delay*(marge+0))-(couleur*decalage_s))<time())and(r0==0):
+                LP1_r.on()
+                BUZ_r.on()
+                r0=1
+                print("r0 : ", time()-init_time)
+                
+            #After 1 delay for rouge
+            if (init_time+(delay*(marge+1))-(couleur*decalage_s))<time()and(r1==0):
+                BUZ_r.off()
+                r1=1
+                print("r1 : ", time()-init_time)
+                
+            #After 2 delay for rouge
+            if (init_time+(delay*(marge+2))-(couleur*decalage_s))<time()and(r2==0):
+                LP2_r.on()
+                BUZ_r.on()
+                r2=1
+                print("r2 : ", time()-init_time)
+                
+            #After 3 delay for rouge
+            if (init_time+(delay*(marge+3))-(couleur*decalage_s))<time()and(r3==0):
+                BUZ_r.off()
+                r3=1
+                print("r3 : ", time()-init_time)
+                
+            #After 4 delay for rouge
+            if (init_time+(delay*(marge+4))-(couleur*decalage_s))<time()and(r4==0):
+                LP3_r.on()
+                BUZ_r.on()
+                r4=1
+                print("r4 : ", time()-init_time)
+                
+            #After 5 delay for rouge
+            if (init_time+(delay*(marge+5))-(couleur*decalage_s))<time()and(r5==0):
+                BUZ_r.off()
+                r5=1
+                print("r5 : ", time()-init_time)
+                
+            #After 6 delay for rouge
+            if (init_time+(delay*(marge+6))-(couleur*decalage_s))<time()and(r6==0):
+                LP4_r.on()
+                BUZ_r.on()
+                
+                EA_r.on()
+                
+                r6=1
+                print("r6 : ", time()-init_time)
+                
+            #After 8 delay for rouge
+            if (init_time+(delay*(marge+8))-(couleur*decalage_s))<time()and(r8==0):
+                BUZ_r.off()
+                r8=1
+                print("r8 : ", time()-init_time)
+                
+                
+            # gestion des GPIOs du coté bleu
+            #-------------------------------------------------------------------
+            #After 0 delay for bleu
+            if ((init_time+(delay*(marge+0))+(couleur*decalage_s))<time())and(b0==0):
+                LP1_b.on()
+                BUZ_b.on()
+                b0=1
+                print("b0 : ", time()-init_time)
+                
+                
+            #After 1 delay for bleu
+            if (init_time+(delay*(marge+1))+(couleur*decalage_s))<time()and(b1==0):
+                BUZ_b.off()
+                b1=1
+                print("b1 : ", time()-init_time)
+                
+            #After 2 delay for bleu
+            if (init_time+(delay*(marge+2))+(couleur*decalage_s))<time()and(b2==0):
+                LP2_b.on()
+                BUZ_b.on()
+                b2=1
+                print("b2 : ", time()-init_time)
+                
+            #After 3 delay for bleu
+            if (init_time+(delay*(marge+3))+(couleur*decalage_s))<time()and(b3==0):
+                BUZ_b.off()
+                b3=1
+                print("b3 : ", time()-init_time)
+                
+            #After 4 delay for bleu
+            if (init_time+(delay*(marge+4))+(couleur*decalage_s))<time()and(b4==0):
+                LP3_b.on()
+                BUZ_b.on()
+                b4=1
+                print("b4 : ", time()-init_time)
+                
+            #After 5 delay for bleu
+            if (init_time+(delay*(marge+5))+(couleur*decalage_s))<time()and(b5==0):
+                BUZ_b.off()
+                b5=1
+                print("b5 : ", time()-init_time)
+                
+            #After 6 delay for bleu
+            if (init_time+(delay*(marge+6))+(couleur*decalage_s))<time()and(b6==0):
+                LP4_b.on()
+                BUZ_b.on()
+                
+                EA_b.on()
+                
+                b6=1
+                print("b6 : ", time()-init_time)
+                
+            #After 8 delay for bleu
+            if (init_time+(delay*(marge+8))+(couleur*decalage_s))<time()and(b8==0):
+                BUZ_b.off()
+                b8=1
+                print("b8 : ", time()-init_time)
+                
+            # gestion des GPIOs du coté rouge
+            #-------------------------------------------------------------------
+            # condition de sortie de la boucle
+            if (r8==1)and(b8==1):
+                x=1
+                EA_b.off()
+                EA_r.off()
+                SP.off()
     
     print("Launch execution time = ", time()-init_time)
     return 0
 
-# test si l'entrée numérique est valide
-def validNumEntry(c):
-    global error
-    try:
-        r = float(c)
-        return r
-    except ValueError:
-        error=1
-        return 0
 
-# affiche les variables dans la console   
-def PrintVar():
-    global qualif
-    global couleur
-    global avance_s
-    global ready
-    global error
-    print(" ")
-    print("Check variables")
-    print("-couleur   = ",couleur)
-    print("-qualif    = ",qualif)
-    print("-avance [s]= ",avance_s)
-    print("-ready     = ",ready)
-    print("-Error     = ",error)
-
+#-------------------------------------------------------------------
+# Boucle principale
+#-------------------------------------------------------------------
 while 1:
     # initialise varibles (#b: 0=>FALSE / 1=>TRUE)
     qualif=0#b
@@ -251,6 +417,7 @@ while 1:
             app_Select_red_delay.label("Definissez l'avance pour le côté rouge", bg='tomato', fg='black')
             app_Select_red_delay.entry("Avance", label=True, focus=True)
             app_Select_red_delay.buttons(["Select"], [Select_red_delay])
+            error=maxmin_avance()
     
     elif couleur==-1:
         # Création de la fenêtre
@@ -258,6 +425,7 @@ while 1:
             app_Select_blue_delay.label("Definissez l'avance pour le côté bleu", bg='deepskyblue', fg='black')
             app_Select_blue_delay.entry("Avance", label=True, focus=True)
             app_Select_blue_delay.buttons(["Select"], [Select_blue_delay])
+            error=maxmin_avance()
             
     else:
         error=1
