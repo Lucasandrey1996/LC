@@ -1,0 +1,8 @@
+Eletromécanique:
+-commande :
+	connecteurs bannane chrono
+	nouveau passage hdmi
+	boitier pvc pour porte
+	bornier de racordement EA + lampes + buzzer
+	fusible 10A
+	
