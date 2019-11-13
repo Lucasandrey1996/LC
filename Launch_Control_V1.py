@@ -211,9 +211,7 @@ def Launch():
     x=0
     #marge=4
     decalage_s=avance_s/2
-    print(decalage_s)
-    #MySleep(delay*marge/2,init_time) # pour éviter un
-    #MySleep(avance_s,init_time)
+    #print(decalage_s)
     SP.on()
     while x==0:
         
