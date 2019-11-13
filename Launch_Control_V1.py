@@ -70,6 +70,7 @@ def Select_red_delay():
     global var_set
     avance_s = validNumEntry(app_Select_red_delay.getEntry("Avance"))
     var_set=1
+    print("-avance [s]= ",avance_s)
     app_Select_red_delay.stop()
     
 # gestion du bouton "Select" lorsque "Bleu" à été sélectionné
@@ -78,6 +79,7 @@ def Select_blue_delay():
     global var_set
     avance_s = validNumEntry(app_Select_blue_delay.getEntry("Avance"))
     var_set=1
+    print("-avance [s]= ",avance_s)
     app_Select_blue_delay.stop()
     
 # gestion du bouton "Chg. de côté" lorsque "Rouge" à été sélectionné
@@ -222,39 +224,39 @@ def Launch():
             LP1_r.on()
             BUZ_r.on()
             r0=1
-            print("r0 : ", time()-init_time)
+            #print("r0 : ", time()-init_time)
             
         #After 1 delay for red
         if (init_time+decalage_s+(delay*1)-(couleur*decalage_s))<time()and(r1==0):
             BUZ_r.off()
             r1=1
-            print("r1 : ", time()-init_time)
+            #print("r1 : ", time()-init_time)
             
         #After 2 delay for red
         if (init_time+decalage_s+(delay*2)-(couleur*decalage_s))<time()and(r2==0):
             LP2_r.on()
             BUZ_r.on()
             r2=1
-            print("r2 : ", time()-init_time)
+            #print("r2 : ", time()-init_time)
             
         #After 3 delay for red
         if (init_time+decalage_s+(delay*3)-(couleur*decalage_s))<time()and(r3==0):
             BUZ_r.off()
             r3=1
-            print("r3 : ", time()-init_time)
+            #print("r3 : ", time()-init_time)
             
         #After 4 delay for red
         if (init_time+decalage_s+(delay*4)-(couleur*decalage_s))<time()and(r4==0):
             LP3_r.on()
             BUZ_r.on()
             r4=1
-            print("r4 : ", time()-init_time)
+            #print("r4 : ", time()-init_time)
             
         #After 5 delay for red
         if (init_time+decalage_s+(delay*5)-(couleur*decalage_s))<time()and(r5==0):
             BUZ_r.off()
             r5=1
-            print("r5 : ", time()-init_time)
+            #print("r5 : ", time()-init_time)
             
         #After 6 delay for red
         if (init_time+decalage_s+(delay*6)-(couleur*decalage_s))<time()and(r6==0):
@@ -264,13 +266,13 @@ def Launch():
             EA_r.on()
             
             r6=1
-            print("r6 : ", time()-init_time)
+            #print("r6 : ", time()-init_time)
             
         #After 8 delay for red
         if (init_time+decalage_s+(delay*8)-(couleur*decalage_s))<time()and(r8==0):
             BUZ_r.off()
             r8=1
-            print("r8 : ", time()-init_time)
+            print("Electro-aimants Rouge ouverts après : ", time()-init_time)
             
             
         # gestion des GPIOs du coté bleu
@@ -280,40 +282,40 @@ def Launch():
             LP1_b.on()
             BUZ_b.on()
             b0=1
-            print("b0 : ", time()-init_time)
+            #print("b0 : ", time()-init_time)
             
             
         #After 1 delay for blue
         if (init_time+decalage_s+(delay*1)+(couleur*decalage_s))<time()and(b1==0):
             BUZ_b.off()
             b1=1
-            print("b1 : ", time()-init_time)
+            #print("b1 : ", time()-init_time)
             
         #After 2 delay for blue
         if (init_time+decalage_s+(delay*2)+(couleur*decalage_s))<time()and(b2==0):
             LP2_b.on()
             BUZ_b.on()
             b2=1
-            print("b2 : ", time()-init_time)
+            #print("b2 : ", time()-init_time)
             
         #After 3 delay for blue
         if (init_time+decalage_s+(delay*3)+(couleur*decalage_s))<time()and(b3==0):
             BUZ_b.off()
             b3=1
-            print("b3 : ", time()-init_time)
+            #print("b3 : ", time()-init_time)
             
         #After 4 delay for blue
         if (init_time+decalage_s+(delay*4)+(couleur*decalage_s))<time()and(b4==0):
             LP3_b.on()
             BUZ_b.on()
             b4=1
-            print("b4 : ", time()-init_time)
+            #print("b4 : ", time()-init_time)
             
         #After 5 delay for blue
         if (init_time+decalage_s+(delay*5)+(couleur*decalage_s))<time()and(b5==0):
             BUZ_b.off()
             b5=1
-            print("b5 : ", time()-init_time)
+            #print("b5 : ", time()-init_time)
             
         #After 6 delay for blue
         if (init_time+decalage_s+(delay*6)+(couleur*decalage_s))<time()and(b6==0):
@@ -323,13 +325,13 @@ def Launch():
             EA_b.on()
             
             b6=1
-            print("b6 : ", time()-init_time)
+            #print("b6 : ", time()-init_time)
             
         #After 8 delay for blue
         if (init_time+decalage_s+(delay*8)+(couleur*decalage_s))<time()and(b8==0):
             BUZ_b.off()
             b8=1
-            print("b8 : ", time()-init_time)
+            print("Electro-aimants Bleu ouverts après : ", time()-init_time)
             
         # condition de sortie de la boucle
         #-------------------------------------------------------------------
@@ -340,7 +342,7 @@ def Launch():
             EA_r.off()
             SP.off()
     
-    print("Launch execution time = ", time()-init_time)
+    print("Temps d'execution du départ = ", time()-init_time)
     return 0
 
 
@@ -390,7 +392,7 @@ while 1:
             app_Welcome.buttons(["Rouge", "Bleu"], [Colour, Colour])
      
     # Check variables
-    PrintVar()
+    #PrintVar()
     
     if qualif==1:
         # Création de la fenêtre
@@ -419,7 +421,7 @@ while 1:
     error=maxmin_avance()
     
     # Check variables
-    PrintVar()
+    #PrintVar()
     
     if (error==0)and(ready==0)and(qualif==0)and(var_set==1):
         if couleur==1:
@@ -439,7 +441,7 @@ while 1:
         avance_s=0
     
         # Check variables
-    PrintVar()
+    #PrintVar()
     
     if (error==0)and(ready!=0):
         Launch()
@@ -447,17 +449,22 @@ while 1:
         with gui("done", "600x300", bg='snow', font={'size':22}) as app_Launch:
             app_Launch.label("Le départ à été donné...", bg='snow', fg='black')
             app_Launch.buttons(["OK"], [app_Launch.stop])
+        print("FIN de boucle")
     elif (error!=0):
         # Création de la fenêtre
         with gui("error", "600x300", bg='snow', font={'size':22}) as app_Error:
             app_Error.label("Un problème est survenu,", bg='snow', fg='black')
             app_Error.label("aucun départ n'est donné...", bg='snow', fg='black')
             app_Error.buttons(["OK"], [app_Error.stop])
-            couleur=0
-            qualif=0
+        print("FIN avec des erreurs")
+        couleur=0
+        qualif=0
     elif (ready==0)and(var_set==1):
         couleur=0
         qualif=0
+        print("FIN avec Cancel")
+    else:
+        print("FIN de boucle")
             
     
     
