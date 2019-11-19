@@ -384,7 +384,7 @@ while 1:
     if (qualif==0)and(couleur==0):
         # Création de la fenêtre
         with gui("Initialisation", "600x300", bg='snow', font={'size':22}) as app_Welcome:
-            app_Welcome.label("Pour un départ sans délais", bg='lightgreen', fg='black')
+            app_Welcome.label("Pour un départ simultané", bg='lightgreen', fg='black')
             app_Welcome.buttons(["Qualifications"], [Qualif])
             app_Welcome.label("Pour un départ avec une avance du côté :", bg='yellow', fg='black')
             app_Welcome.buttons(["Rouge", "Bleu"], [Colour, Colour])
