@@ -222,7 +222,7 @@ def Launch():
             LP1_r.on()
             BUZ_r.on()
             r0=1
-            #print("r0 : ", time()-init_time)
+            print("r0 : ", time()-init_time)
             
         #After 1 delay for red
         if (init_time+decalage_s+(delay*1)-(couleur*decalage_s))<time()and(r1==0):
@@ -280,7 +280,7 @@ def Launch():
             LP1_b.on()
             BUZ_b.on()
             b0=1
-            #print("b0 : ", time()-init_time)
+            print("b0 : ", time()-init_time)
             
             
         #After 1 delay for blue

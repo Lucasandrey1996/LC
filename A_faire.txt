@@ -5,4 +5,8 @@ Eletromécanique:
 	boitier pvc pour porte
 	bornier de racordement EA + lampes + buzzer
 	fusible 10A
-	
+
+-soft:
+	retard?
+	voir pour un case()
+	faire calculs avant
