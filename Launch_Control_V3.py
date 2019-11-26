@@ -30,8 +30,9 @@ EA_b = LED(18)
 RP_r = LED(19)
 RP_b = LED(16)
 
+
 #-------------------------------------------------------------------
-# definition des Fonctions
+# definition des Fonctions de calcul et d'affichage
 #-------------------------------------------------------------------
 
 # fonction sleep maison
@@ -44,7 +45,49 @@ def MySleep(delay, T_init):
 #     print(T_init)
 #     print(delay)
     return i
+
+# test si l'entrée numérique est valide
+def validNumEntry(c):
+    global error
+    try:
+        r = float(c)
+        return r
+    except ValueError:
+        error=1
+        return 0
         
+# affiche les variables dans la console   
+def PrintVar():
+    global qualif
+    global couleur
+    global delay_s
+    global var_set
+    global ready
+    global error
+    print(" ")
+    print("Check variables")
+    print("-couleur   = ",couleur)
+    print("-qualif    = ",qualif)
+    print("-delay [s]= ",delay_s)
+    print("-var_set   = ",var_set)
+    print("-ready     = ",ready)
+    print("-Error     = ",error)
+    
+def maxmin_delay():
+    global delay_s
+    global error
+    max_s = 10 #secondes
+    min_s = 0 #secondes
+    if delay_s>max_s:
+        delay_s=max_s
+        error=1
+    elif delay_s<min_s:
+        delay_s=min_s
+        error=1
+        
+#-------------------------------------------------------------------
+# definition des Fonctions de callback de l'interface graphique
+#-------------------------------------------------------------------
 
 # gestion du bouton "Qualifications"
 def Qualif():
@@ -109,7 +152,8 @@ def Start_blue():
     global ready
     ready = 1
     app_Start_blue.stop()
-    
+
+# gestion du bouton "Exit"
 def Exit_qualif():
     global qualif
     qualif = 0
@@ -126,48 +170,8 @@ def Exit_blue():
     app_Select_blue_delay.stop()
     
 
-# test si l'entrée numérique est valide
-def validNumEntry(c):
-    global error
-    try:
-        r = float(c)
-        return r
-    except ValueError:
-        error=1
-        return 0
-
-# affiche les variables dans la console   
-def PrintVar():
-    global qualif
-    global couleur
-    global delay_s
-    global var_set
-    global ready
-    global error
-    print(" ")
-    print("Check variables")
-    print("-couleur   = ",couleur)
-    print("-qualif    = ",qualif)
-    print("-delay [s]= ",delay_s)
-    print("-var_set   = ",var_set)
-    print("-ready     = ",ready)
-    print("-Error     = ",error)
-    
-def maxmin_delay():
-    global delay_s
-    global error
-    max_s = 10 #secondes
-    min_s = 0 #secondes
-    if delay_s>max_s:
-        delay_s=max_s
-        error=1
-    elif delay_s<min_s:
-        delay_s=min_s
-        error=1
-
-
 #-------------------------------------------------------------------
-# gestion du départ
+# Fonction de gestion du départ
 #-------------------------------------------------------------------
 def Launch():
 #     ----------------------------------------------------------    
@@ -391,36 +395,10 @@ def Launch():
             end=1
             EA_b.off()
             EA_r.off()
-            SP.off()
+            #SP.off()
             continue
         
         # FIN DE LA BOUCLE DE SEQUANCE
-    print("Electro-aimants Rouge ouverts après : ", tea_rouge)
-    print("Electro-aimants Bleu ouverts après  : ", tea_bleu)
-    print("L'écart d'ouverture en seconde est  : ", abs(tea_bleu-tea_rouge))
-    print("Temps d'execution du départ = ", time()-init_time)
-    print("Nombre de tours de boucle   = ", i)
-    return 0
-
-
-#-------------------------------------------------------------------
-# Boucle principale
-#-------------------------------------------------------------------
-
-# initialise les varibles (#b: 0=>FALSE / 1=>TRUE)
-var_set=0
-delay_s=0
-ready=0#b
-error=0#b
-qualif=0#b
-couleur=0
-
-while 1:
-    # réinitialise les varibles (#b: 0=>FALSE / 1=>TRUE)
-    var_set=0
-    delay_s=0
-    ready=0#b
-    error=0#b
     
     # initialise GPIO
     # Avertisseurs lumineux & sonores
@@ -446,6 +424,57 @@ while 1:
     RP_r.off()
     RP_b.off()
     
+    print("Electro-aimants Rouge ouverts après : ", tea_rouge)
+    print("Electro-aimants Bleu ouverts après  : ", tea_bleu)
+    print("L'écart d'ouverture en seconde est  : ", abs(tea_bleu-tea_rouge))
+    print("Temps d'execution du départ = ", time()-init_time)
+    print("Nombre de tours de boucle   = ", i)
+    return 0
+
+
+#-------------------------------------------------------------------
+# Boucle principale
+#-------------------------------------------------------------------
+
+# initialise les varibles de la boucle principale (#b: 0=>FALSE / 1=>TRUE)
+var_set=0
+delay_s=0
+ready=0#b
+error=0#b
+qualif=0#b
+couleur=0
+
+# initialise GPIO
+# Avertisseurs lumineux & sonores
+LP1_r.off()
+LP2_r.off()
+LP3_r.off()
+LP4_r.off()
+LP1_b.off()
+LP2_b.off()
+LP3_b.off()
+LP4_b.off()
+BUZ_r.off()
+BUZ_b.off()
+SP.off()
+
+# Signaux Chrono
+SC_r.off()
+SC_b.off()
+
+# Sorties de puissance
+EA_r.off()
+EA_b.off()
+RP_r.off()
+RP_b.off()
+
+while 1:
+    # réinitialise les varibles (#b: 0=>FALSE / 1=>TRUE)
+    var_set=0
+    delay_s=0
+    ready=0#b
+    error=0#b
+        
     if (qualif==0)and(couleur==0):
         # Création de la fenêtre
         with gui("Menu Principale", "600x300", bg='snow', font={'size':22}) as app_Welcome:
