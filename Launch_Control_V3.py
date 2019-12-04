@@ -250,7 +250,7 @@ def Launch():
     tr8 = init_time + retard_rouge + (time_base*8)
     tb8 = init_time + redard_bleu + (time_base*8)
     
-    SP.on()
+    #SP.on()
     while end==0:
         i=i+1
         temps_actuel=time()
@@ -412,7 +412,7 @@ def Launch():
     LP4_b.off()
     BUZ_r.off()
     BUZ_b.off()
-    SP.off()
+    #SP.off()
     
     # Signaux Chrono
     SC_r.off()
@@ -558,6 +558,7 @@ while 1:
     else:
         print("FIN de boucle")
             
+    
     
     
     
