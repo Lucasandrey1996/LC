@@ -1,0 +1,10 @@
+[Unit]
+Description=Start the Launch_Control.sh script
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/home/pi/Desktop/LC/Launch_Control.sh
+
+[Install]
+WantedBy=multi-user.target

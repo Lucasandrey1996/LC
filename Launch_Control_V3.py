@@ -174,6 +174,7 @@ def Exit_blue():
 # Fonction de gestion du départ
 #-------------------------------------------------------------------
 def Launch():
+    print("Départ en cours...")
 #     ----------------------------------------------------------    
     # Globals variables
 #     ----------------------------------------------------------
@@ -426,9 +427,10 @@ def Launch():
     
     print("Electro-aimants Rouge ouverts après : ", tea_rouge)
     print("Electro-aimants Bleu ouverts après  : ", tea_bleu)
-    print("L'écart d'ouverture en seconde est  : ", abs(tea_bleu-tea_rouge))
-    print("Temps d'execution du départ = ", time()-init_time)
-    print("Nombre de tours de boucle   = ", i)
+    print("...")
+    print("L'écart d'ouverture en seconde est de : ", abs(tea_bleu-tea_rouge))
+    #print("Temps d'execution du départ = ", time()-init_time)
+    #print("Nombre de tours de boucle   = ", i)
     return 0
 
 
@@ -482,6 +484,7 @@ while 1:
             app_Welcome.buttons(["Qualifications"], [Qualif])
             app_Welcome.label("Pour un départ avec une retard du côté :", bg='yellow', fg='black')
             app_Welcome.buttons(["Rouge", "Bleu"], [Colour, Colour])
+            app_Welcome.enableEnter(Qualif)
      
     # Check variables
     #PrintVar()
@@ -491,20 +494,24 @@ while 1:
         with gui("Qualifications", "600x300", bg='snow', font={'size':22}) as app_Qualif:
             app_Qualif.label("Pressez start pour donner le départ", bg='orange', fg='black')
             app_Qualif.buttons(["Start", "Menu"], [Start_Q, Exit_qualif])
+            app_Qualif.enableEnter(Start_Q)
             
     elif couleur==1:
         # Création de la fenêtre
-        with gui("delay pour la piste rouge", "600x300", bg='red', font={'size':22}) as app_Select_red_delay:
+        with gui("Retard pour la piste rouge", "600x300", bg='red', font={'size':22}) as app_Select_red_delay:
             app_Select_red_delay.label("Definissez le retard pour le côté rouge", bg='tomato', fg='black')
             app_Select_red_delay.entry("delay", label=True, focus=True)
             app_Select_red_delay.buttons(["Select", "Menu", "Chg. de côté"], [Select_red_delay, Exit_red, Chg_red_delay])
-    
+            app_Select_red_delay.enableEnter(Select_red_delay)
+            
     elif couleur==-1:
         # Création de la fenêtre
-        with gui("delay pour la piste bleu", "600x300", bg='blue', font={'size':22}) as app_Select_blue_delay:
+        with gui("Retard pour la piste bleu", "600x300", bg='blue', font={'size':22}) as app_Select_blue_delay:
             app_Select_blue_delay.label("Definissez le retard pour le côté bleu", bg='deepskyblue', fg='black')
             app_Select_blue_delay.entry("delay", label=True, focus=True)
             app_Select_blue_delay.buttons(["Select", "Menu", "Chg. de côté"], [Select_blue_delay, Exit_blue, Chg_blue_delay])
+            app_Select_blue_delay.enableEnter(Select_blue_delay)
+            #app_Select_blue_delay.bindKey("<Escape>", Exit_blue)
             
     else:
         error=1
@@ -519,16 +526,19 @@ while 1:
         if couleur==1:
             # Création de la fenêtre
             with gui("Confirmation du délais", "600x300", bg='red', font={'size':22}) as app_Start_red:
-                app_Start_red.label("delay pour le côté rouge (en secondes):", bg='tomato', fg='black')
+                app_Start_red.label("Retard pour le côté rouge (en secondes):", bg='tomato', fg='black')
                 app_Start_red.label(delay_s, bg='yellow', fg='black')
                 app_Start_red.buttons(["Start", "Cancel"], [Start_red,app_Start_red.stop])
-    
+                app_Start_red.enableEnter(Start_red)
+                
         elif couleur==-1:
             # Création de la fenêtre
             with gui("Confirmation du délais", "600x300", bg='blue', font={'size':22}) as app_Start_blue:
-                app_Start_blue.label("delay pour le côté bleu (en secondes):", bg='deepskyblue', fg='black')
+                app_Start_blue.label("Retard pour le côté bleu (en secondes):", bg='deepskyblue', fg='black')
                 app_Start_blue.label(delay_s, bg='yellow', fg='black')
                 app_Start_blue.buttons(["Start", "Cancel"], [Start_blue,app_Start_blue.stop])
+                app_Start_blue.enableEnter(Start_blue)
+                
     else:
         delay_s=0
     
@@ -537,17 +547,18 @@ while 1:
     
     if (error==0)and(ready!=0):
         Launch()
-        # Création de la fenêtre
-        with gui("done", "600x300", bg='snow', font={'size':22}) as app_Launch:
-            app_Launch.label("Le départ à été donné...", bg='snow', fg='black')
-            app_Launch.buttons(["OK"], [app_Launch.stop])
-        print("FIN de boucle")
+#         # Création de la fenêtre
+#         with gui("done", "600x300", bg='snow', font={'size':22}) as app_Launch:
+#             app_Launch.label("Le départ à été donné...", bg='snow', fg='black')
+#             app_Launch.buttons(["OK"], [app_Launch.stop])
+#         #print("FIN de boucle")
     elif (error!=0):
         # Création de la fenêtre
         with gui("error", "600x300", bg='snow', font={'size':22}) as app_Error:
             app_Error.label("Un problème est survenu,", bg='snow', fg='black')
             app_Error.label("aucun départ n'est donné...", bg='snow', fg='black')
             app_Error.buttons(["OK"], [app_Error.stop])
+            app_Error.enableEnter(app_Error.stop)
         print("FIN avec des erreurs")
         couleur=0
         qualif=0
@@ -555,9 +566,9 @@ while 1:
         couleur=0
         qualif=0
         print("FIN avec Cancel")
-    else:
-        print("FIN de boucle")
-            
+    #else:
+        #print("FIN de boucle")
+    print(" ")
     
     
     

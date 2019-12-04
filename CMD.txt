@@ -9,3 +9,6 @@ tension du processeur
 tempörature du processeur
 	vcgencmd measure_temp
 
+Gestion des services 
+	htop
+
