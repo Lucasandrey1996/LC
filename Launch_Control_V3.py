@@ -174,15 +174,14 @@ def Exit_blue():
 # Fonction de gestion du départ
 #-------------------------------------------------------------------
 def Launch():
-    print("Départ en cours...")
 #     ----------------------------------------------------------    
     # Globals variables
 #     ----------------------------------------------------------
-    global qualif
     global couleur
     global delay_s
-    global ready
-    global error
+    global Nbr_departs
+    global tea_rouge
+    global tea_bleu
     
     #definition des E/S
     # Avertisseurs lumineux & sonores
@@ -252,6 +251,9 @@ def Launch():
     tb8 = init_time + redard_bleu + (time_base*8)
     
     #SP.on()
+    Nbr_departs=Nbr_departs+1
+    print("Départ",Nbr_departs,"en cours...")
+    
     while end==0:
         i=i+1
         temps_actuel=time()
@@ -435,7 +437,7 @@ def Launch():
 
 
 #-------------------------------------------------------------------
-# Boucle principale
+# Programme principale
 #-------------------------------------------------------------------
 
 # initialise les varibles de la boucle principale (#b: 0=>FALSE / 1=>TRUE)
@@ -445,6 +447,11 @@ ready=0#b
 error=0#b
 qualif=0#b
 couleur=0
+Nbr_departs=0
+test=0 # !!! est toujours à 0 sauf en cas de test (=1) !!!
+tea_rouge=0.0
+tea_bleu=0.0
+file= open("Mesures_de_temps.txt","w+")
 
 # initialise GPIO
 # Avertisseurs lumineux & sonores
@@ -469,6 +476,42 @@ EA_r.off()
 EA_b.off()
 RP_r.off()
 RP_b.off()
+
+if test==1:
+    print("Test !")
+    #while 1:
+#     for x in range(200):
+#         delay_s=0
+#         couleur=0
+#         Launch()
+#         file= open("Mesures_de_temps.txt","a")
+#         file.write("%f_" %delay_s)# nombre de départ
+#         file.write("%f\r\n" % (abs(tea_bleu-tea_rouge)))# Difference is: 
+#         file.close() 
+#         print(" ")
+    
+    for x in range(200):
+        delay_s=0.01*x
+        couleur=1
+        Launch()
+        file= open("Mesures_de_temps.txt","a")
+        file.write("%f_" %(delay_s*couleur))# nombre de départ
+        file.write("%f\r\n" % (abs(tea_bleu-tea_rouge)))# Difference is: 
+        file.close() 
+        print(" ")
+    
+    for x in range(200):
+        delay_s=0.01*x
+        couleur=-1
+        Launch()
+        file= open("Mesures_de_temps.txt","a")
+        file.write("%f_" %(delay_s*couleur))# nombre de départ
+        file.write("%f\r\n" % (abs(tea_bleu-tea_rouge)))# Difference is: 
+        file.close() 
+        print(" ")
+
+
+print("Bienvenu !")
 
 while 1:
     # réinitialise les varibles (#b: 0=>FALSE / 1=>TRUE)
