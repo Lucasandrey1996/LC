@@ -482,7 +482,7 @@ while 1:
         with gui("Menu Principale", "600x300", bg='snow', font={'size':22}) as app_Welcome:
             app_Welcome.label("Pour un départ simultané", bg='lightgreen', fg='black')
             app_Welcome.buttons(["Qualifications"], [Qualif])
-            app_Welcome.label("Pour un départ avec une retard du côté :", bg='yellow', fg='black')
+            app_Welcome.label("Pour un départ avec un retard du côté :", bg='yellow', fg='black')
             app_Welcome.buttons(["Rouge", "Bleu"], [Colour, Colour])
             app_Welcome.enableEnter(Qualif)
      
