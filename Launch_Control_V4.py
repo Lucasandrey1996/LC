@@ -313,11 +313,20 @@ def MySleep(delay, T_init):
     return i
 
 # test si l'entrée numérique est valide
-def validNumEntry(c,n):
+def validfloatEntry(c,n):
     global error
     try:
         r = float(c)
         return round(r,n)
+    except ValueError:
+        error=1
+        return 0
+    
+def validintEntry(c):
+    global error
+    try:
+        r = int(c)
+        return abs(r)
     except ValueError:
         error=1
         return 0
@@ -396,18 +405,24 @@ def Colour(button):
 def Select_red_delay():
     global delay_s
     global var_set
-    delay_s = validNumEntry(app_Select_red_delay.getEntry("delay"),2)
+    global dossard
+    dossard = validintEntry(app_Select_red_delay.getEntry("dossard"))
+    delay_s = validfloatEntry(app_Select_red_delay.getEntry("délai"),2)
     var_set=1
-    print("-delay [s]= ",delay_s)
+    print("-dossard = ",dossard)
+    print("-délai [s]= ",delay_s)
     app_Select_red_delay.stop()
     
 # gestion du bouton "Select" lorsque "Bleu" à été sélectionné
 def Select_blue_delay():
     global delay_s
     global var_set
-    delay_s = validNumEntry(app_Select_blue_delay.getEntry("delay"),2)
+    global dossard
+    dossard = validintEntry(app_Select_blue_delay.getEntry("dossard"))
+    delay_s = validfloatEntry(app_Select_blue_delay.getEntry("délai"),2)
     var_set=1
-    print("-delay [s]= ",delay_s)
+    print("-dossard = ",dossard)
+    print("-délai [s]= ",delay_s)
     app_Select_blue_delay.stop()
     
 # gestion du bouton "Chg. de côté" lorsque "Rouge" à été sélectionné
@@ -460,6 +475,7 @@ def Exit_blue():
 
 # initialise les varibles de la boucle principale (#b: 0=>FALSE / 1=>TRUE)
 var_set=0
+dossard=0
 delay_s=0
 ready=0#b
 error=0#b
@@ -499,6 +515,7 @@ RP_b.off()
 if test==1:
     print("Test !")
     mesure= open("Mesures_de_temps.txt","w+")
+    mesure.close()
     #while 1:
 #     for x in range(200):
 #         delay_s=0
@@ -514,20 +531,20 @@ if test==1:
         delay_s=0.01*x
         couleur=1
         Launch()
-        #mesure= open("Mesures_de_temps.txt","a")
+        mesure= open("Mesures_de_temps.txt","a")
         mesure.write("%f_" %(delay_s*couleur))# nombre de départ
         mesure.write("%f\r\n" % (abs(tea_bleu-tea_rouge)))# Difference is: 
-        #mesure.close() 
+        mesure.close() 
         print(" ")
     
     for x in range(200):
         delay_s=0.01*x
         couleur=-1
         Launch()
-        #mesure= open("Mesures_de_temps.txt","a")
+        mesure= open("Mesures_de_temps.txt","a")
         mesure.write("%f_" %(delay_s*couleur))# nombre de départ
         mesure.write("%f\r\n" % (abs(tea_bleu-tea_rouge)))# Difference is: 
-        #mesure.close() 
+        mesure.close() 
         print(" ")
 
 
@@ -540,11 +557,15 @@ with gui("Nom du fichier de sauvegarde", "600x300", bg='Gold', font={'size':22})
     app_Select_filename.enableEnter(Select_str_entry)
 
 depart_effectif=open(filename,"w+")
+depart_effectif.write(filename+"\r\n")
+depart_effectif.close()
+print("fichier créer avec le nom:",filename)
 
 while not(bool(stop_GUI)):
     # réinitialise les varibles (#b: 0=>FALSE / 1=>TRUE)
     var_set=bool(0)#b
     delay_s=0
+    dossard=0
     ready=bool(0)#b
     error=bool(0)#b
         
@@ -625,6 +646,12 @@ while not(bool(stop_GUI)):
     
     if (not(bool(error)))and(bool(ready))and not(bool(stop_GUI)):
         Launch()
+        depart_effectif=open(filename,"a")
+        depart_effectif.write("%d) " %Nbr_departs)# nombre de départ
+        depart_effectif.write("le dossard Numéro %d a un retard en seconde de :" %(dossard))# nombre de départ
+        depart_effectif.write("%f\r\n" %(delay_s))
+        depart_effectif.write("     Le retard software est de %f\r\n" % (round(abs(tea_bleu-tea_rouge),6)))# Difference is:
+        depart_effectif.close()
 #         # Création de la fenêtre
 #         with gui("done", "600x300", bg='snow', font={'size':22}) as app_Launch:
 #             app_Launch.label("Le départ à été donné...", bg='snow', fg='black')
