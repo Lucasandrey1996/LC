@@ -550,7 +550,7 @@ if test==1:
 
 print("Bienvenue !")
 
-with gui("Nom du fichier de sauvegarde", "600x300", bg='Gold', font={'size':22}) as app_Select_filename:
+with gui("Nom du fichier de sauvegarde", "800x300", bg='Gold', font={'size':22}) as app_Select_filename:
     app_Select_filename.label("Definissez le nom du fichier de sauvegarde des temps", bg='LightYellow', fg='black')
     app_Select_filename.entry("fichier", label=True, focus=True)
     app_Select_filename.buttons(["Select"], [Select_str_entry])
@@ -571,10 +571,10 @@ while not(bool(stop_GUI)):
         
     if (not(bool(qualif)))and(not(bool(couleur))):
         # Création de la fenêtre
-        with gui("Menu Principale", "600x400", bg='snow', font={'size':22}) as app_Welcome:
-            app_Welcome.label("Pour un départ simultané", bg='lightgreen', fg='black')
+        with gui("Menu Principale", "600x400", bg='LightYellow', font={'size':22}) as app_Welcome:
+            app_Welcome.label("Pour un départ simultané", bg='Yellow', fg='black')
             app_Welcome.buttons(["Qualifications"], [Qualif])
-            app_Welcome.label("Pour un départ avec un retard du côté :", bg='yellow', fg='black')
+            app_Welcome.label("Pour un départ avec un retard du côté :", bg='Gold', fg='black')
             app_Welcome.buttons(["Rouge", "Bleu"], [Colour, Colour])
             app_Welcome.label("Pour fermer l'application", bg='OrangeRed', fg='black')
             app_Welcome.buttons(["Exit"], [stop_Welcome])
@@ -585,8 +585,8 @@ while not(bool(stop_GUI)):
     
     if bool(qualif)and not(bool(stop_GUI)):
         # Création de la fenêtre
-        with gui("Qualifications", "600x300", bg='snow', font={'size':22}) as app_Qualif:
-            app_Qualif.label("Pressez start pour donner le départ", bg='orange', fg='black')
+        with gui("Qualifications", "500x200", bg='LightYellow', font={'size':22}) as app_Qualif:
+            app_Qualif.label("Pressez start pour donner le départ", bg='lime', fg='black')
             app_Qualif.buttons(["Start", "Menu"], [Start_Q, Exit_qualif])
             app_Qualif.enableEnter(Start_Q)
             
@@ -625,16 +625,20 @@ while not(bool(stop_GUI)):
         if couleur==1:
             # Création de la fenêtre
             with gui("Confirmation du délais", "600x300", bg='red', font={'size':22}) as app_Start_red:
-                app_Start_red.label("Retard pour le côté rouge (en secondes):", bg='tomato', fg='black')
-                app_Start_red.label(delay_s, bg='yellow', fg='black')
+                app_Start_red.label("Le dossard numéro :", bg='coral', fg='black')
+                app_Start_red.label(dossard, bg='Yellow', fg='black')
+                app_Start_red.label("a un retard du côté rouge (en secondes):", bg='coral', fg='black')
+                app_Start_red.label(delay_s, bg='Yellow', fg='black')
                 app_Start_red.buttons(["Start", "Cancel"], [Start_red,app_Start_red.stop])
                 app_Start_red.enableEnter(Start_red)
                 
         elif couleur==-1:
             # Création de la fenêtre
             with gui("Confirmation du délais", "600x300", bg='blue', font={'size':22}) as app_Start_blue:
-                app_Start_blue.label("Retard pour le côté bleu (en secondes):", bg='deepskyblue', fg='black')
-                app_Start_blue.label(delay_s, bg='yellow', fg='black')
+                app_Start_blue.label("Le dossard numéro :", bg='Lightskyblue', fg='black')
+                app_Start_blue.label(dossard, bg='Yellow', fg='black')
+                app_Start_blue.label("a un retard du côté bleu (en secondes):", bg='Lightskyblue', fg='black')
+                app_Start_blue.label(delay_s, bg='Yellow', fg='black')
                 app_Start_blue.buttons(["Start", "Cancel"], [Start_blue,app_Start_blue.stop])
                 app_Start_blue.enableEnter(Start_blue)
                 
@@ -648,7 +652,7 @@ while not(bool(stop_GUI)):
         Launch()
         depart_effectif=open(filename,"a")
         depart_effectif.write("%d) " %Nbr_departs)# nombre de départ
-        depart_effectif.write("le dossard Numéro %d a un retard en seconde de :" %(dossard))# nombre de départ
+        depart_effectif.write("le dossard numéro %d a un retard en seconde de :" %(dossard))# nombre de départ
         depart_effectif.write("%f\r\n" %(delay_s))
         depart_effectif.write("     Le retard software est de %f\r\n" % (round(abs(tea_bleu-tea_rouge),6)))# Difference is:
         depart_effectif.close()
@@ -659,18 +663,19 @@ while not(bool(stop_GUI)):
 #         #print("FIN de boucle")
     elif (bool(error)):
         # Création de la fenêtre
-        with gui("error", "600x300", bg='snow', font={'size':22}) as app_Error:
+        with gui("error", "700x400", bg='snow', font={'size':22}) as app_Error:
             app_Error.label("Un problème est survenu,", bg='snow', fg='black')
             app_Error.label("aucun départ n'est donné...", bg='snow', fg='black')
+            app_Error.label("Merci de n'écrire que des valeures numériques !!!", bg='snow', fg='black')
             app_Error.buttons(["OK"], [app_Error.stop])
             app_Error.enableEnter(app_Error.stop)
-        print("FIN avec des erreurs")
+        print("Une erreur est survenue...")
         couleur=0
         qualif=0
     elif (not(bool(ready)))and(bool(var_set))and not(bool(stop_GUI)):
         couleur=0
         qualif=0
-        print("FIN avec Cancel")
+        print("La touche cancel a été pressée...")
     else:
         print(" ")
         #print("END !!!")
