@@ -531,10 +531,31 @@ EA_b.off()
 RP_r.off()
 RP_b.off()
 
+#-------------------------------------------------------------------
+# Création du fichier de sauvegarde des délais  
+#-------------------------------------------------------------------
+
+print("Bienvenue !")
+
+with gui("Nom du fichier de sauvegarde", "800x300", bg='Gold', font={'size':22}) as app_Select_filename:
+    app_Select_filename.label("Definissez le nom du fichier de sauvegarde des temps", bg='LightYellow', fg='black')
+    app_Select_filename.entry("fichier", label=True, focus=True)
+    app_Select_filename.buttons(["Select"], [Select_str_entry])
+    app_Select_filename.enableEnter(Select_str_entry)
+
+depart_effectif=open(filename,"w+")
+depart_effectif.write(filename+"\r\n")
+depart_effectif.close()
+print("fichier créer avec le nom:",filename)
+
+#-------------------------------------------------------------------
+# script de test (seulement si test = 1) 
+#-------------------------------------------------------------------
+
 if test==1:
     print("Test !")
-    mesure= open("Mesures_de_temps.txt","w+")
-    mesure.close()
+#     mesure= open("Mesures_de_temps.txt","w+")
+#     mesure.close()
     #while 1:
 #     for x in range(200):
 #         delay_s=0
@@ -549,36 +570,25 @@ if test==1:
     for x in range(200):
         delay_s=0.01*x
         couleur=1
+        dossard=2*x
         Launch()
-        mesure= open("Mesures_de_temps.txt","a")
-        mesure.write("%f_" %(delay_s*couleur))# nombre de départ
-        mesure.write("%f\r\n" % (abs(tea_bleu-tea_rouge)))# Difference is: 
-        mesure.close() 
+#         mesure= open("Mesures_de_temps.txt","a")
+#         mesure.write("%f_" %(delay_s*couleur))# nombre de départ
+#         mesure.write("%f\r\n" % (abs(tea_bleu-tea_rouge)))# Difference is: 
+#         mesure.close() 
         print(" ")
     
     for x in range(200):
         delay_s=0.01*x
         couleur=-1
+        dossard=2*x+1
         Launch()
-        mesure= open("Mesures_de_temps.txt","a")
-        mesure.write("%f_" %(delay_s*couleur))# nombre de départ
-        mesure.write("%f\r\n" % (abs(tea_bleu-tea_rouge)))# Difference is: 
-        mesure.close() 
+#         mesure= open("Mesures_de_temps.txt","a")
+#         mesure.write("%f_" %(delay_s*couleur))# nombre de départ
+#         mesure.write("%f\r\n" % (abs(tea_bleu-tea_rouge)))# Difference is: 
+#         mesure.close() 
         print(" ")
 
-
-print("Bienvenue !")
-
-with gui("Nom du fichier de sauvegarde", "800x300", bg='Gold', font={'size':22}) as app_Select_filename:
-    app_Select_filename.label("Definissez le nom du fichier de sauvegarde des temps", bg='LightYellow', fg='black')
-    app_Select_filename.entry("fichier", label=True, focus=True)
-    app_Select_filename.buttons(["Select"], [Select_str_entry])
-    app_Select_filename.enableEnter(Select_str_entry)
-
-depart_effectif=open(filename,"w+")
-depart_effectif.write(filename+"\r\n")
-depart_effectif.close()
-print("fichier créer avec le nom:",filename)
 
 while not(bool(stop_GUI)):
     # réinitialise les varibles (#b: 0=>FALSE / 1=>TRUE)

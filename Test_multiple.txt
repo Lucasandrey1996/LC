@@ -1,0 +1,801 @@
+Test_multiple.txt
+1) Le dossard numéro 0 a un retard de 0.00 seconde du coté rouge.
+     Le retard software est de 0.0001
+2) Le dossard numéro 2 a un retard de 0.01 seconde du coté rouge.
+     Le retard software est de 0.0099
+3) Le dossard numéro 4 a un retard de 0.02 seconde du coté rouge.
+     Le retard software est de 0.0200
+4) Le dossard numéro 6 a un retard de 0.03 seconde du coté rouge.
+     Le retard software est de 0.0300
+5) Le dossard numéro 8 a un retard de 0.04 seconde du coté rouge.
+     Le retard software est de 0.0400
+6) Le dossard numéro 10 a un retard de 0.05 seconde du coté rouge.
+     Le retard software est de 0.0500
+7) Le dossard numéro 12 a un retard de 0.06 seconde du coté rouge.
+     Le retard software est de 0.0600
+8) Le dossard numéro 14 a un retard de 0.07 seconde du coté rouge.
+     Le retard software est de 0.0700
+9) Le dossard numéro 16 a un retard de 0.08 seconde du coté rouge.
+     Le retard software est de 0.0800
+10) Le dossard numéro 18 a un retard de 0.09 seconde du coté rouge.
+     Le retard software est de 0.0900
+11) Le dossard numéro 20 a un retard de 0.10 seconde du coté rouge.
+     Le retard software est de 0.1000
+12) Le dossard numéro 22 a un retard de 0.11 seconde du coté rouge.
+     Le retard software est de 0.1100
+13) Le dossard numéro 24 a un retard de 0.12 seconde du coté rouge.
+     Le retard software est de 0.1199
+14) Le dossard numéro 26 a un retard de 0.13 seconde du coté rouge.
+     Le retard software est de 0.1300
+15) Le dossard numéro 28 a un retard de 0.14 seconde du coté rouge.
+     Le retard software est de 0.1400
+16) Le dossard numéro 30 a un retard de 0.15 seconde du coté rouge.
+     Le retard software est de 0.1500
+17) Le dossard numéro 32 a un retard de 0.16 seconde du coté rouge.
+     Le retard software est de 0.1600
+18) Le dossard numéro 34 a un retard de 0.17 seconde du coté rouge.
+     Le retard software est de 0.1700
+19) Le dossard numéro 36 a un retard de 0.18 seconde du coté rouge.
+     Le retard software est de 0.1800
+20) Le dossard numéro 38 a un retard de 0.19 seconde du coté rouge.
+     Le retard software est de 0.1900
+21) Le dossard numéro 40 a un retard de 0.20 seconde du coté rouge.
+     Le retard software est de 0.2000
+22) Le dossard numéro 42 a un retard de 0.21 seconde du coté rouge.
+     Le retard software est de 0.2100
+23) Le dossard numéro 44 a un retard de 0.22 seconde du coté rouge.
+     Le retard software est de 0.2200
+24) Le dossard numéro 46 a un retard de 0.23 seconde du coté rouge.
+     Le retard software est de 0.2300
+25) Le dossard numéro 48 a un retard de 0.24 seconde du coté rouge.
+     Le retard software est de 0.2400
+26) Le dossard numéro 50 a un retard de 0.25 seconde du coté rouge.
+     Le retard software est de 0.2500
+27) Le dossard numéro 52 a un retard de 0.26 seconde du coté rouge.
+     Le retard software est de 0.2600
+28) Le dossard numéro 54 a un retard de 0.27 seconde du coté rouge.
+     Le retard software est de 0.2700
+29) Le dossard numéro 56 a un retard de 0.28 seconde du coté rouge.
+     Le retard software est de 0.2800
+30) Le dossard numéro 58 a un retard de 0.29 seconde du coté rouge.
+     Le retard software est de 0.2900
+31) Le dossard numéro 60 a un retard de 0.30 seconde du coté rouge.
+     Le retard software est de 0.3000
+32) Le dossard numéro 62 a un retard de 0.31 seconde du coté rouge.
+     Le retard software est de 0.3100
+33) Le dossard numéro 64 a un retard de 0.32 seconde du coté rouge.
+     Le retard software est de 0.3200
+34) Le dossard numéro 66 a un retard de 0.33 seconde du coté rouge.
+     Le retard software est de 0.3300
+35) Le dossard numéro 68 a un retard de 0.34 seconde du coté rouge.
+     Le retard software est de 0.3400
+36) Le dossard numéro 70 a un retard de 0.35 seconde du coté rouge.
+     Le retard software est de 0.3500
+37) Le dossard numéro 72 a un retard de 0.36 seconde du coté rouge.
+     Le retard software est de 0.3600
+38) Le dossard numéro 74 a un retard de 0.37 seconde du coté rouge.
+     Le retard software est de 0.3700
+39) Le dossard numéro 76 a un retard de 0.38 seconde du coté rouge.
+     Le retard software est de 0.3800
+40) Le dossard numéro 78 a un retard de 0.39 seconde du coté rouge.
+     Le retard software est de 0.3900
+41) Le dossard numéro 80 a un retard de 0.40 seconde du coté rouge.
+     Le retard software est de 0.4000
+42) Le dossard numéro 82 a un retard de 0.41 seconde du coté rouge.
+     Le retard software est de 0.4100
+43) Le dossard numéro 84 a un retard de 0.42 seconde du coté rouge.
+     Le retard software est de 0.4200
+44) Le dossard numéro 86 a un retard de 0.43 seconde du coté rouge.
+     Le retard software est de 0.4300
+45) Le dossard numéro 88 a un retard de 0.44 seconde du coté rouge.
+     Le retard software est de 0.4400
+46) Le dossard numéro 90 a un retard de 0.45 seconde du coté rouge.
+     Le retard software est de 0.4500
+47) Le dossard numéro 92 a un retard de 0.46 seconde du coté rouge.
+     Le retard software est de 0.4600
+48) Le dossard numéro 94 a un retard de 0.47 seconde du coté rouge.
+     Le retard software est de 0.4700
+49) Le dossard numéro 96 a un retard de 0.48 seconde du coté rouge.
+     Le retard software est de 0.4800
+50) Le dossard numéro 98 a un retard de 0.49 seconde du coté rouge.
+     Le retard software est de 0.4900
+51) Le dossard numéro 100 a un retard de 0.50 seconde du coté rouge.
+     Le retard software est de 0.5000
+52) Le dossard numéro 102 a un retard de 0.51 seconde du coté rouge.
+     Le retard software est de 0.5100
+53) Le dossard numéro 104 a un retard de 0.52 seconde du coté rouge.
+     Le retard software est de 0.5200
+54) Le dossard numéro 106 a un retard de 0.53 seconde du coté rouge.
+     Le retard software est de 0.5300
+55) Le dossard numéro 108 a un retard de 0.54 seconde du coté rouge.
+     Le retard software est de 0.5400
+56) Le dossard numéro 110 a un retard de 0.55 seconde du coté rouge.
+     Le retard software est de 0.5500
+57) Le dossard numéro 112 a un retard de 0.56 seconde du coté rouge.
+     Le retard software est de 0.5600
+58) Le dossard numéro 114 a un retard de 0.57 seconde du coté rouge.
+     Le retard software est de 0.5700
+59) Le dossard numéro 116 a un retard de 0.58 seconde du coté rouge.
+     Le retard software est de 0.5800
+60) Le dossard numéro 118 a un retard de 0.59 seconde du coté rouge.
+     Le retard software est de 0.5900
+61) Le dossard numéro 120 a un retard de 0.60 seconde du coté rouge.
+     Le retard software est de 0.6000
+62) Le dossard numéro 122 a un retard de 0.61 seconde du coté rouge.
+     Le retard software est de 0.6100
+63) Le dossard numéro 124 a un retard de 0.62 seconde du coté rouge.
+     Le retard software est de 0.6200
+64) Le dossard numéro 126 a un retard de 0.63 seconde du coté rouge.
+     Le retard software est de 0.6300
+65) Le dossard numéro 128 a un retard de 0.64 seconde du coté rouge.
+     Le retard software est de 0.6400
+66) Le dossard numéro 130 a un retard de 0.65 seconde du coté rouge.
+     Le retard software est de 0.6500
+67) Le dossard numéro 132 a un retard de 0.66 seconde du coté rouge.
+     Le retard software est de 0.6600
+68) Le dossard numéro 134 a un retard de 0.67 seconde du coté rouge.
+     Le retard software est de 0.6700
+69) Le dossard numéro 136 a un retard de 0.68 seconde du coté rouge.
+     Le retard software est de 0.6800
+70) Le dossard numéro 138 a un retard de 0.69 seconde du coté rouge.
+     Le retard software est de 0.6900
+71) Le dossard numéro 140 a un retard de 0.70 seconde du coté rouge.
+     Le retard software est de 0.7000
+72) Le dossard numéro 142 a un retard de 0.71 seconde du coté rouge.
+     Le retard software est de 0.7100
+73) Le dossard numéro 144 a un retard de 0.72 seconde du coté rouge.
+     Le retard software est de 0.7200
+74) Le dossard numéro 146 a un retard de 0.73 seconde du coté rouge.
+     Le retard software est de 0.7300
+75) Le dossard numéro 148 a un retard de 0.74 seconde du coté rouge.
+     Le retard software est de 0.7400
+76) Le dossard numéro 150 a un retard de 0.75 seconde du coté rouge.
+     Le retard software est de 0.7500
+77) Le dossard numéro 152 a un retard de 0.76 seconde du coté rouge.
+     Le retard software est de 0.7600
+78) Le dossard numéro 154 a un retard de 0.77 seconde du coté rouge.
+     Le retard software est de 0.7700
+79) Le dossard numéro 156 a un retard de 0.78 seconde du coté rouge.
+     Le retard software est de 0.7800
+80) Le dossard numéro 158 a un retard de 0.79 seconde du coté rouge.
+     Le retard software est de 0.7900
+81) Le dossard numéro 160 a un retard de 0.80 seconde du coté rouge.
+     Le retard software est de 0.8000
+82) Le dossard numéro 162 a un retard de 0.81 seconde du coté rouge.
+     Le retard software est de 0.8100
+83) Le dossard numéro 164 a un retard de 0.82 seconde du coté rouge.
+     Le retard software est de 0.8200
+84) Le dossard numéro 166 a un retard de 0.83 seconde du coté rouge.
+     Le retard software est de 0.8300
+85) Le dossard numéro 168 a un retard de 0.84 seconde du coté rouge.
+     Le retard software est de 0.8400
+86) Le dossard numéro 170 a un retard de 0.85 seconde du coté rouge.
+     Le retard software est de 0.8500
+87) Le dossard numéro 172 a un retard de 0.86 seconde du coté rouge.
+     Le retard software est de 0.8600
+88) Le dossard numéro 174 a un retard de 0.87 seconde du coté rouge.
+     Le retard software est de 0.8700
+89) Le dossard numéro 176 a un retard de 0.88 seconde du coté rouge.
+     Le retard software est de 0.8800
+90) Le dossard numéro 178 a un retard de 0.89 seconde du coté rouge.
+     Le retard software est de 0.8900
+91) Le dossard numéro 180 a un retard de 0.90 seconde du coté rouge.
+     Le retard software est de 0.9000
+92) Le dossard numéro 182 a un retard de 0.91 seconde du coté rouge.
+     Le retard software est de 0.9100
+93) Le dossard numéro 184 a un retard de 0.92 seconde du coté rouge.
+     Le retard software est de 0.9200
+94) Le dossard numéro 186 a un retard de 0.93 seconde du coté rouge.
+     Le retard software est de 0.9300
+95) Le dossard numéro 188 a un retard de 0.94 seconde du coté rouge.
+     Le retard software est de 0.9400
+96) Le dossard numéro 190 a un retard de 0.95 seconde du coté rouge.
+     Le retard software est de 0.9500
+97) Le dossard numéro 192 a un retard de 0.96 seconde du coté rouge.
+     Le retard software est de 0.9600
+98) Le dossard numéro 194 a un retard de 0.97 seconde du coté rouge.
+     Le retard software est de 0.9700
+99) Le dossard numéro 196 a un retard de 0.98 seconde du coté rouge.
+     Le retard software est de 0.9800
+100) Le dossard numéro 198 a un retard de 0.99 seconde du coté rouge.
+     Le retard software est de 0.9900
+101) Le dossard numéro 200 a un retard de 1.00 seconde du coté rouge.
+     Le retard software est de 1.0000
+102) Le dossard numéro 202 a un retard de 1.01 seconde du coté rouge.
+     Le retard software est de 1.0099
+103) Le dossard numéro 204 a un retard de 1.02 seconde du coté rouge.
+     Le retard software est de 1.0200
+104) Le dossard numéro 206 a un retard de 1.03 seconde du coté rouge.
+     Le retard software est de 1.0300
+105) Le dossard numéro 208 a un retard de 1.04 seconde du coté rouge.
+     Le retard software est de 1.0400
+106) Le dossard numéro 210 a un retard de 1.05 seconde du coté rouge.
+     Le retard software est de 1.0500
+107) Le dossard numéro 212 a un retard de 1.06 seconde du coté rouge.
+     Le retard software est de 1.0600
+108) Le dossard numéro 214 a un retard de 1.07 seconde du coté rouge.
+     Le retard software est de 1.0700
+109) Le dossard numéro 216 a un retard de 1.08 seconde du coté rouge.
+     Le retard software est de 1.0800
+110) Le dossard numéro 218 a un retard de 1.09 seconde du coté rouge.
+     Le retard software est de 1.0900
+111) Le dossard numéro 220 a un retard de 1.10 seconde du coté rouge.
+     Le retard software est de 1.1000
+112) Le dossard numéro 222 a un retard de 1.11 seconde du coté rouge.
+     Le retard software est de 1.1100
+113) Le dossard numéro 224 a un retard de 1.12 seconde du coté rouge.
+     Le retard software est de 1.1200
+114) Le dossard numéro 226 a un retard de 1.13 seconde du coté rouge.
+     Le retard software est de 1.1300
+115) Le dossard numéro 228 a un retard de 1.14 seconde du coté rouge.
+     Le retard software est de 1.1400
+116) Le dossard numéro 230 a un retard de 1.15 seconde du coté rouge.
+     Le retard software est de 1.1500
+117) Le dossard numéro 232 a un retard de 1.16 seconde du coté rouge.
+     Le retard software est de 1.1600
+118) Le dossard numéro 234 a un retard de 1.17 seconde du coté rouge.
+     Le retard software est de 1.1700
+119) Le dossard numéro 236 a un retard de 1.18 seconde du coté rouge.
+     Le retard software est de 1.1800
+120) Le dossard numéro 238 a un retard de 1.19 seconde du coté rouge.
+     Le retard software est de 1.1900
+121) Le dossard numéro 240 a un retard de 1.20 seconde du coté rouge.
+     Le retard software est de 1.2000
+122) Le dossard numéro 242 a un retard de 1.21 seconde du coté rouge.
+     Le retard software est de 1.2100
+123) Le dossard numéro 244 a un retard de 1.22 seconde du coté rouge.
+     Le retard software est de 1.2200
+124) Le dossard numéro 246 a un retard de 1.23 seconde du coté rouge.
+     Le retard software est de 1.2300
+125) Le dossard numéro 248 a un retard de 1.24 seconde du coté rouge.
+     Le retard software est de 1.2400
+126) Le dossard numéro 250 a un retard de 1.25 seconde du coté rouge.
+     Le retard software est de 1.2500
+127) Le dossard numéro 252 a un retard de 1.26 seconde du coté rouge.
+     Le retard software est de 1.2600
+128) Le dossard numéro 254 a un retard de 1.27 seconde du coté rouge.
+     Le retard software est de 1.2700
+129) Le dossard numéro 256 a un retard de 1.28 seconde du coté rouge.
+     Le retard software est de 1.2800
+130) Le dossard numéro 258 a un retard de 1.29 seconde du coté rouge.
+     Le retard software est de 1.2900
+131) Le dossard numéro 260 a un retard de 1.30 seconde du coté rouge.
+     Le retard software est de 1.3000
+132) Le dossard numéro 262 a un retard de 1.31 seconde du coté rouge.
+     Le retard software est de 1.3100
+133) Le dossard numéro 264 a un retard de 1.32 seconde du coté rouge.
+     Le retard software est de 1.3200
+134) Le dossard numéro 266 a un retard de 1.33 seconde du coté rouge.
+     Le retard software est de 1.3300
+135) Le dossard numéro 268 a un retard de 1.34 seconde du coté rouge.
+     Le retard software est de 1.3400
+136) Le dossard numéro 270 a un retard de 1.35 seconde du coté rouge.
+     Le retard software est de 1.3500
+137) Le dossard numéro 272 a un retard de 1.36 seconde du coté rouge.
+     Le retard software est de 1.3600
+138) Le dossard numéro 274 a un retard de 1.37 seconde du coté rouge.
+     Le retard software est de 1.3700
+139) Le dossard numéro 276 a un retard de 1.38 seconde du coté rouge.
+     Le retard software est de 1.3800
+140) Le dossard numéro 278 a un retard de 1.39 seconde du coté rouge.
+     Le retard software est de 1.3900
+141) Le dossard numéro 280 a un retard de 1.40 seconde du coté rouge.
+     Le retard software est de 1.4000
+142) Le dossard numéro 282 a un retard de 1.41 seconde du coté rouge.
+     Le retard software est de 1.4100
+143) Le dossard numéro 284 a un retard de 1.42 seconde du coté rouge.
+     Le retard software est de 1.4200
+144) Le dossard numéro 286 a un retard de 1.43 seconde du coté rouge.
+     Le retard software est de 1.4300
+145) Le dossard numéro 288 a un retard de 1.44 seconde du coté rouge.
+     Le retard software est de 1.4400
+146) Le dossard numéro 290 a un retard de 1.45 seconde du coté rouge.
+     Le retard software est de 1.4500
+147) Le dossard numéro 292 a un retard de 1.46 seconde du coté rouge.
+     Le retard software est de 1.4600
+148) Le dossard numéro 294 a un retard de 1.47 seconde du coté rouge.
+     Le retard software est de 1.4700
+149) Le dossard numéro 296 a un retard de 1.48 seconde du coté rouge.
+     Le retard software est de 1.4800
+150) Le dossard numéro 298 a un retard de 1.49 seconde du coté rouge.
+     Le retard software est de 1.4900
+151) Le dossard numéro 300 a un retard de 1.50 seconde du coté rouge.
+     Le retard software est de 1.5000
+152) Le dossard numéro 302 a un retard de 1.51 seconde du coté rouge.
+     Le retard software est de 1.5100
+153) Le dossard numéro 304 a un retard de 1.52 seconde du coté rouge.
+     Le retard software est de 1.5200
+154) Le dossard numéro 306 a un retard de 1.53 seconde du coté rouge.
+     Le retard software est de 1.5300
+155) Le dossard numéro 308 a un retard de 1.54 seconde du coté rouge.
+     Le retard software est de 1.5400
+156) Le dossard numéro 310 a un retard de 1.55 seconde du coté rouge.
+     Le retard software est de 1.5500
+157) Le dossard numéro 312 a un retard de 1.56 seconde du coté rouge.
+     Le retard software est de 1.5600
+158) Le dossard numéro 314 a un retard de 1.57 seconde du coté rouge.
+     Le retard software est de 1.5700
+159) Le dossard numéro 316 a un retard de 1.58 seconde du coté rouge.
+     Le retard software est de 1.5800
+160) Le dossard numéro 318 a un retard de 1.59 seconde du coté rouge.
+     Le retard software est de 1.5900
+161) Le dossard numéro 320 a un retard de 1.60 seconde du coté rouge.
+     Le retard software est de 1.6000
+162) Le dossard numéro 322 a un retard de 1.61 seconde du coté rouge.
+     Le retard software est de 1.6100
+163) Le dossard numéro 324 a un retard de 1.62 seconde du coté rouge.
+     Le retard software est de 1.6200
+164) Le dossard numéro 326 a un retard de 1.63 seconde du coté rouge.
+     Le retard software est de 1.6300
+165) Le dossard numéro 328 a un retard de 1.64 seconde du coté rouge.
+     Le retard software est de 1.6400
+166) Le dossard numéro 330 a un retard de 1.65 seconde du coté rouge.
+     Le retard software est de 1.6500
+167) Le dossard numéro 332 a un retard de 1.66 seconde du coté rouge.
+     Le retard software est de 1.6600
+168) Le dossard numéro 334 a un retard de 1.67 seconde du coté rouge.
+     Le retard software est de 1.6700
+169) Le dossard numéro 336 a un retard de 1.68 seconde du coté rouge.
+     Le retard software est de 1.6800
+170) Le dossard numéro 338 a un retard de 1.69 seconde du coté rouge.
+     Le retard software est de 1.6900
+171) Le dossard numéro 340 a un retard de 1.70 seconde du coté rouge.
+     Le retard software est de 1.7000
+172) Le dossard numéro 342 a un retard de 1.71 seconde du coté rouge.
+     Le retard software est de 1.7100
+173) Le dossard numéro 344 a un retard de 1.72 seconde du coté rouge.
+     Le retard software est de 1.7200
+174) Le dossard numéro 346 a un retard de 1.73 seconde du coté rouge.
+     Le retard software est de 1.7300
+175) Le dossard numéro 348 a un retard de 1.74 seconde du coté rouge.
+     Le retard software est de 1.7400
+176) Le dossard numéro 350 a un retard de 1.75 seconde du coté rouge.
+     Le retard software est de 1.7500
+177) Le dossard numéro 352 a un retard de 1.76 seconde du coté rouge.
+     Le retard software est de 1.7600
+178) Le dossard numéro 354 a un retard de 1.77 seconde du coté rouge.
+     Le retard software est de 1.7700
+179) Le dossard numéro 356 a un retard de 1.78 seconde du coté rouge.
+     Le retard software est de 1.7800
+180) Le dossard numéro 358 a un retard de 1.79 seconde du coté rouge.
+     Le retard software est de 1.7900
+181) Le dossard numéro 360 a un retard de 1.80 seconde du coté rouge.
+     Le retard software est de 1.8000
+182) Le dossard numéro 362 a un retard de 1.81 seconde du coté rouge.
+     Le retard software est de 1.8100
+183) Le dossard numéro 364 a un retard de 1.82 seconde du coté rouge.
+     Le retard software est de 1.8200
+184) Le dossard numéro 366 a un retard de 1.83 seconde du coté rouge.
+     Le retard software est de 1.8300
+185) Le dossard numéro 368 a un retard de 1.84 seconde du coté rouge.
+     Le retard software est de 1.8400
+186) Le dossard numéro 370 a un retard de 1.85 seconde du coté rouge.
+     Le retard software est de 1.8500
+187) Le dossard numéro 372 a un retard de 1.86 seconde du coté rouge.
+     Le retard software est de 1.8600
+188) Le dossard numéro 374 a un retard de 1.87 seconde du coté rouge.
+     Le retard software est de 1.8700
+189) Le dossard numéro 376 a un retard de 1.88 seconde du coté rouge.
+     Le retard software est de 1.8800
+190) Le dossard numéro 378 a un retard de 1.89 seconde du coté rouge.
+     Le retard software est de 1.8900
+191) Le dossard numéro 380 a un retard de 1.90 seconde du coté rouge.
+     Le retard software est de 1.9000
+192) Le dossard numéro 382 a un retard de 1.91 seconde du coté rouge.
+     Le retard software est de 1.9100
+193) Le dossard numéro 384 a un retard de 1.92 seconde du coté rouge.
+     Le retard software est de 1.9200
+194) Le dossard numéro 386 a un retard de 1.93 seconde du coté rouge.
+     Le retard software est de 1.9300
+195) Le dossard numéro 388 a un retard de 1.94 seconde du coté rouge.
+     Le retard software est de 1.9400
+196) Le dossard numéro 390 a un retard de 1.95 seconde du coté rouge.
+     Le retard software est de 1.9500
+197) Le dossard numéro 392 a un retard de 1.96 seconde du coté rouge.
+     Le retard software est de 1.9600
+198) Le dossard numéro 394 a un retard de 1.97 seconde du coté rouge.
+     Le retard software est de 1.9700
+199) Le dossard numéro 396 a un retard de 1.98 seconde du coté rouge.
+     Le retard software est de 1.9800
+200) Le dossard numéro 398 a un retard de 1.99 seconde du coté rouge.
+     Le retard software est de 1.9900
+201) Le dossard numéro 1 a un retard de 0.00 seconde du coté bleu.
+     Le retard software est de 0.0001
+202) Le dossard numéro 3 a un retard de 0.01 seconde du coté bleu.
+     Le retard software est de 0.0099
+203) Le dossard numéro 5 a un retard de 0.02 seconde du coté bleu.
+     Le retard software est de 0.0200
+204) Le dossard numéro 7 a un retard de 0.03 seconde du coté bleu.
+     Le retard software est de 0.0300
+205) Le dossard numéro 9 a un retard de 0.04 seconde du coté bleu.
+     Le retard software est de 0.0400
+206) Le dossard numéro 11 a un retard de 0.05 seconde du coté bleu.
+     Le retard software est de 0.0500
+207) Le dossard numéro 13 a un retard de 0.06 seconde du coté bleu.
+     Le retard software est de 0.0600
+208) Le dossard numéro 15 a un retard de 0.07 seconde du coté bleu.
+     Le retard software est de 0.0700
+209) Le dossard numéro 17 a un retard de 0.08 seconde du coté bleu.
+     Le retard software est de 0.0800
+210) Le dossard numéro 19 a un retard de 0.09 seconde du coté bleu.
+     Le retard software est de 0.0900
+211) Le dossard numéro 21 a un retard de 0.10 seconde du coté bleu.
+     Le retard software est de 0.1000
+212) Le dossard numéro 23 a un retard de 0.11 seconde du coté bleu.
+     Le retard software est de 0.1100
+213) Le dossard numéro 25 a un retard de 0.12 seconde du coté bleu.
+     Le retard software est de 0.1200
+214) Le dossard numéro 27 a un retard de 0.13 seconde du coté bleu.
+     Le retard software est de 0.1300
+215) Le dossard numéro 29 a un retard de 0.14 seconde du coté bleu.
+     Le retard software est de 0.1400
+216) Le dossard numéro 31 a un retard de 0.15 seconde du coté bleu.
+     Le retard software est de 0.1500
+217) Le dossard numéro 33 a un retard de 0.16 seconde du coté bleu.
+     Le retard software est de 0.1600
+218) Le dossard numéro 35 a un retard de 0.17 seconde du coté bleu.
+     Le retard software est de 0.1700
+219) Le dossard numéro 37 a un retard de 0.18 seconde du coté bleu.
+     Le retard software est de 0.1800
+220) Le dossard numéro 39 a un retard de 0.19 seconde du coté bleu.
+     Le retard software est de 0.1900
+221) Le dossard numéro 41 a un retard de 0.20 seconde du coté bleu.
+     Le retard software est de 0.2000
+222) Le dossard numéro 43 a un retard de 0.21 seconde du coté bleu.
+     Le retard software est de 0.2100
+223) Le dossard numéro 45 a un retard de 0.22 seconde du coté bleu.
+     Le retard software est de 0.2200
+224) Le dossard numéro 47 a un retard de 0.23 seconde du coté bleu.
+     Le retard software est de 0.2300
+225) Le dossard numéro 49 a un retard de 0.24 seconde du coté bleu.
+     Le retard software est de 0.2400
+226) Le dossard numéro 51 a un retard de 0.25 seconde du coté bleu.
+     Le retard software est de 0.2500
+227) Le dossard numéro 53 a un retard de 0.26 seconde du coté bleu.
+     Le retard software est de 0.2600
+228) Le dossard numéro 55 a un retard de 0.27 seconde du coté bleu.
+     Le retard software est de 0.2700
+229) Le dossard numéro 57 a un retard de 0.28 seconde du coté bleu.
+     Le retard software est de 0.2800
+230) Le dossard numéro 59 a un retard de 0.29 seconde du coté bleu.
+     Le retard software est de 0.2900
+231) Le dossard numéro 61 a un retard de 0.30 seconde du coté bleu.
+     Le retard software est de 0.3000
+232) Le dossard numéro 63 a un retard de 0.31 seconde du coté bleu.
+     Le retard software est de 0.3100
+233) Le dossard numéro 65 a un retard de 0.32 seconde du coté bleu.
+     Le retard software est de 0.3200
+234) Le dossard numéro 67 a un retard de 0.33 seconde du coté bleu.
+     Le retard software est de 0.3300
+235) Le dossard numéro 69 a un retard de 0.34 seconde du coté bleu.
+     Le retard software est de 0.3400
+236) Le dossard numéro 71 a un retard de 0.35 seconde du coté bleu.
+     Le retard software est de 0.3500
+237) Le dossard numéro 73 a un retard de 0.36 seconde du coté bleu.
+     Le retard software est de 0.3600
+238) Le dossard numéro 75 a un retard de 0.37 seconde du coté bleu.
+     Le retard software est de 0.3700
+239) Le dossard numéro 77 a un retard de 0.38 seconde du coté bleu.
+     Le retard software est de 0.3800
+240) Le dossard numéro 79 a un retard de 0.39 seconde du coté bleu.
+     Le retard software est de 0.3900
+241) Le dossard numéro 81 a un retard de 0.40 seconde du coté bleu.
+     Le retard software est de 0.4000
+242) Le dossard numéro 83 a un retard de 0.41 seconde du coté bleu.
+     Le retard software est de 0.4100
+243) Le dossard numéro 85 a un retard de 0.42 seconde du coté bleu.
+     Le retard software est de 0.4200
+244) Le dossard numéro 87 a un retard de 0.43 seconde du coté bleu.
+     Le retard software est de 0.4300
+245) Le dossard numéro 89 a un retard de 0.44 seconde du coté bleu.
+     Le retard software est de 0.4400
+246) Le dossard numéro 91 a un retard de 0.45 seconde du coté bleu.
+     Le retard software est de 0.4500
+247) Le dossard numéro 93 a un retard de 0.46 seconde du coté bleu.
+     Le retard software est de 0.4600
+248) Le dossard numéro 95 a un retard de 0.47 seconde du coté bleu.
+     Le retard software est de 0.4700
+249) Le dossard numéro 97 a un retard de 0.48 seconde du coté bleu.
+     Le retard software est de 0.4800
+250) Le dossard numéro 99 a un retard de 0.49 seconde du coté bleu.
+     Le retard software est de 0.4900
+251) Le dossard numéro 101 a un retard de 0.50 seconde du coté bleu.
+     Le retard software est de 0.5000
+252) Le dossard numéro 103 a un retard de 0.51 seconde du coté bleu.
+     Le retard software est de 0.5100
+253) Le dossard numéro 105 a un retard de 0.52 seconde du coté bleu.
+     Le retard software est de 0.5200
+254) Le dossard numéro 107 a un retard de 0.53 seconde du coté bleu.
+     Le retard software est de 0.5300
+255) Le dossard numéro 109 a un retard de 0.54 seconde du coté bleu.
+     Le retard software est de 0.5400
+256) Le dossard numéro 111 a un retard de 0.55 seconde du coté bleu.
+     Le retard software est de 0.5500
+257) Le dossard numéro 113 a un retard de 0.56 seconde du coté bleu.
+     Le retard software est de 0.5600
+258) Le dossard numéro 115 a un retard de 0.57 seconde du coté bleu.
+     Le retard software est de 0.5700
+259) Le dossard numéro 117 a un retard de 0.58 seconde du coté bleu.
+     Le retard software est de 0.5800
+260) Le dossard numéro 119 a un retard de 0.59 seconde du coté bleu.
+     Le retard software est de 0.5900
+261) Le dossard numéro 121 a un retard de 0.60 seconde du coté bleu.
+     Le retard software est de 0.6000
+262) Le dossard numéro 123 a un retard de 0.61 seconde du coté bleu.
+     Le retard software est de 0.6100
+263) Le dossard numéro 125 a un retard de 0.62 seconde du coté bleu.
+     Le retard software est de 0.6200
+264) Le dossard numéro 127 a un retard de 0.63 seconde du coté bleu.
+     Le retard software est de 0.6300
+265) Le dossard numéro 129 a un retard de 0.64 seconde du coté bleu.
+     Le retard software est de 0.6400
+266) Le dossard numéro 131 a un retard de 0.65 seconde du coté bleu.
+     Le retard software est de 0.6500
+267) Le dossard numéro 133 a un retard de 0.66 seconde du coté bleu.
+     Le retard software est de 0.6600
+268) Le dossard numéro 135 a un retard de 0.67 seconde du coté bleu.
+     Le retard software est de 0.6700
+269) Le dossard numéro 137 a un retard de 0.68 seconde du coté bleu.
+     Le retard software est de 0.6800
+270) Le dossard numéro 139 a un retard de 0.69 seconde du coté bleu.
+     Le retard software est de 0.6900
+271) Le dossard numéro 141 a un retard de 0.70 seconde du coté bleu.
+     Le retard software est de 0.7000
+272) Le dossard numéro 143 a un retard de 0.71 seconde du coté bleu.
+     Le retard software est de 0.7100
+273) Le dossard numéro 145 a un retard de 0.72 seconde du coté bleu.
+     Le retard software est de 0.7200
+274) Le dossard numéro 147 a un retard de 0.73 seconde du coté bleu.
+     Le retard software est de 0.7300
+275) Le dossard numéro 149 a un retard de 0.74 seconde du coté bleu.
+     Le retard software est de 0.7400
+276) Le dossard numéro 151 a un retard de 0.75 seconde du coté bleu.
+     Le retard software est de 0.7500
+277) Le dossard numéro 153 a un retard de 0.76 seconde du coté bleu.
+     Le retard software est de 0.7600
+278) Le dossard numéro 155 a un retard de 0.77 seconde du coté bleu.
+     Le retard software est de 0.7700
+279) Le dossard numéro 157 a un retard de 0.78 seconde du coté bleu.
+     Le retard software est de 0.7800
+280) Le dossard numéro 159 a un retard de 0.79 seconde du coté bleu.
+     Le retard software est de 0.7900
+281) Le dossard numéro 161 a un retard de 0.80 seconde du coté bleu.
+     Le retard software est de 0.8000
+282) Le dossard numéro 163 a un retard de 0.81 seconde du coté bleu.
+     Le retard software est de 0.8100
+283) Le dossard numéro 165 a un retard de 0.82 seconde du coté bleu.
+     Le retard software est de 0.8200
+284) Le dossard numéro 167 a un retard de 0.83 seconde du coté bleu.
+     Le retard software est de 0.8300
+285) Le dossard numéro 169 a un retard de 0.84 seconde du coté bleu.
+     Le retard software est de 0.8400
+286) Le dossard numéro 171 a un retard de 0.85 seconde du coté bleu.
+     Le retard software est de 0.8500
+287) Le dossard numéro 173 a un retard de 0.86 seconde du coté bleu.
+     Le retard software est de 0.8600
+288) Le dossard numéro 175 a un retard de 0.87 seconde du coté bleu.
+     Le retard software est de 0.8700
+289) Le dossard numéro 177 a un retard de 0.88 seconde du coté bleu.
+     Le retard software est de 0.8800
+290) Le dossard numéro 179 a un retard de 0.89 seconde du coté bleu.
+     Le retard software est de 0.8900
+291) Le dossard numéro 181 a un retard de 0.90 seconde du coté bleu.
+     Le retard software est de 0.9000
+292) Le dossard numéro 183 a un retard de 0.91 seconde du coté bleu.
+     Le retard software est de 0.9100
+293) Le dossard numéro 185 a un retard de 0.92 seconde du coté bleu.
+     Le retard software est de 0.9200
+294) Le dossard numéro 187 a un retard de 0.93 seconde du coté bleu.
+     Le retard software est de 0.9300
+295) Le dossard numéro 189 a un retard de 0.94 seconde du coté bleu.
+     Le retard software est de 0.9400
+296) Le dossard numéro 191 a un retard de 0.95 seconde du coté bleu.
+     Le retard software est de 0.9500
+297) Le dossard numéro 193 a un retard de 0.96 seconde du coté bleu.
+     Le retard software est de 0.9600
+298) Le dossard numéro 195 a un retard de 0.97 seconde du coté bleu.
+     Le retard software est de 0.9700
+299) Le dossard numéro 197 a un retard de 0.98 seconde du coté bleu.
+     Le retard software est de 0.9800
+300) Le dossard numéro 199 a un retard de 0.99 seconde du coté bleu.
+     Le retard software est de 0.9901
+301) Le dossard numéro 201 a un retard de 1.00 seconde du coté bleu.
+     Le retard software est de 1.0000
+302) Le dossard numéro 203 a un retard de 1.01 seconde du coté bleu.
+     Le retard software est de 1.0099
+303) Le dossard numéro 205 a un retard de 1.02 seconde du coté bleu.
+     Le retard software est de 1.0200
+304) Le dossard numéro 207 a un retard de 1.03 seconde du coté bleu.
+     Le retard software est de 1.0300
+305) Le dossard numéro 209 a un retard de 1.04 seconde du coté bleu.
+     Le retard software est de 1.0400
+306) Le dossard numéro 211 a un retard de 1.05 seconde du coté bleu.
+     Le retard software est de 1.0500
+307) Le dossard numéro 213 a un retard de 1.06 seconde du coté bleu.
+     Le retard software est de 1.0600
+308) Le dossard numéro 215 a un retard de 1.07 seconde du coté bleu.
+     Le retard software est de 1.0700
+309) Le dossard numéro 217 a un retard de 1.08 seconde du coté bleu.
+     Le retard software est de 1.0800
+310) Le dossard numéro 219 a un retard de 1.09 seconde du coté bleu.
+     Le retard software est de 1.0900
+311) Le dossard numéro 221 a un retard de 1.10 seconde du coté bleu.
+     Le retard software est de 1.1000
+312) Le dossard numéro 223 a un retard de 1.11 seconde du coté bleu.
+     Le retard software est de 1.1100
+313) Le dossard numéro 225 a un retard de 1.12 seconde du coté bleu.
+     Le retard software est de 1.1200
+314) Le dossard numéro 227 a un retard de 1.13 seconde du coté bleu.
+     Le retard software est de 1.1300
+315) Le dossard numéro 229 a un retard de 1.14 seconde du coté bleu.
+     Le retard software est de 1.1400
+316) Le dossard numéro 231 a un retard de 1.15 seconde du coté bleu.
+     Le retard software est de 1.1500
+317) Le dossard numéro 233 a un retard de 1.16 seconde du coté bleu.
+     Le retard software est de 1.1600
+318) Le dossard numéro 235 a un retard de 1.17 seconde du coté bleu.
+     Le retard software est de 1.1700
+319) Le dossard numéro 237 a un retard de 1.18 seconde du coté bleu.
+     Le retard software est de 1.1800
+320) Le dossard numéro 239 a un retard de 1.19 seconde du coté bleu.
+     Le retard software est de 1.1900
+321) Le dossard numéro 241 a un retard de 1.20 seconde du coté bleu.
+     Le retard software est de 1.2000
+322) Le dossard numéro 243 a un retard de 1.21 seconde du coté bleu.
+     Le retard software est de 1.2100
+323) Le dossard numéro 245 a un retard de 1.22 seconde du coté bleu.
+     Le retard software est de 1.2200
+324) Le dossard numéro 247 a un retard de 1.23 seconde du coté bleu.
+     Le retard software est de 1.2300
+325) Le dossard numéro 249 a un retard de 1.24 seconde du coté bleu.
+     Le retard software est de 1.2400
+326) Le dossard numéro 251 a un retard de 1.25 seconde du coté bleu.
+     Le retard software est de 1.2500
+327) Le dossard numéro 253 a un retard de 1.26 seconde du coté bleu.
+     Le retard software est de 1.2600
+328) Le dossard numéro 255 a un retard de 1.27 seconde du coté bleu.
+     Le retard software est de 1.2700
+329) Le dossard numéro 257 a un retard de 1.28 seconde du coté bleu.
+     Le retard software est de 1.2800
+330) Le dossard numéro 259 a un retard de 1.29 seconde du coté bleu.
+     Le retard software est de 1.2900
+331) Le dossard numéro 261 a un retard de 1.30 seconde du coté bleu.
+     Le retard software est de 1.3000
+332) Le dossard numéro 263 a un retard de 1.31 seconde du coté bleu.
+     Le retard software est de 1.3100
+333) Le dossard numéro 265 a un retard de 1.32 seconde du coté bleu.
+     Le retard software est de 1.3200
+334) Le dossard numéro 267 a un retard de 1.33 seconde du coté bleu.
+     Le retard software est de 1.3300
+335) Le dossard numéro 269 a un retard de 1.34 seconde du coté bleu.
+     Le retard software est de 1.3400
+336) Le dossard numéro 271 a un retard de 1.35 seconde du coté bleu.
+     Le retard software est de 1.3500
+337) Le dossard numéro 273 a un retard de 1.36 seconde du coté bleu.
+     Le retard software est de 1.3600
+338) Le dossard numéro 275 a un retard de 1.37 seconde du coté bleu.
+     Le retard software est de 1.3700
+339) Le dossard numéro 277 a un retard de 1.38 seconde du coté bleu.
+     Le retard software est de 1.3800
+340) Le dossard numéro 279 a un retard de 1.39 seconde du coté bleu.
+     Le retard software est de 1.3900
+341) Le dossard numéro 281 a un retard de 1.40 seconde du coté bleu.
+     Le retard software est de 1.4000
+342) Le dossard numéro 283 a un retard de 1.41 seconde du coté bleu.
+     Le retard software est de 1.4100
+343) Le dossard numéro 285 a un retard de 1.42 seconde du coté bleu.
+     Le retard software est de 1.4200
+344) Le dossard numéro 287 a un retard de 1.43 seconde du coté bleu.
+     Le retard software est de 1.4300
+345) Le dossard numéro 289 a un retard de 1.44 seconde du coté bleu.
+     Le retard software est de 1.4400
+346) Le dossard numéro 291 a un retard de 1.45 seconde du coté bleu.
+     Le retard software est de 1.4500
+347) Le dossard numéro 293 a un retard de 1.46 seconde du coté bleu.
+     Le retard software est de 1.4600
+348) Le dossard numéro 295 a un retard de 1.47 seconde du coté bleu.
+     Le retard software est de 1.4700
+349) Le dossard numéro 297 a un retard de 1.48 seconde du coté bleu.
+     Le retard software est de 1.4800
+350) Le dossard numéro 299 a un retard de 1.49 seconde du coté bleu.
+     Le retard software est de 1.4900
+351) Le dossard numéro 301 a un retard de 1.50 seconde du coté bleu.
+     Le retard software est de 1.5000
+352) Le dossard numéro 303 a un retard de 1.51 seconde du coté bleu.
+     Le retard software est de 1.5100
+353) Le dossard numéro 305 a un retard de 1.52 seconde du coté bleu.
+     Le retard software est de 1.5200
+354) Le dossard numéro 307 a un retard de 1.53 seconde du coté bleu.
+     Le retard software est de 1.5300
+355) Le dossard numéro 309 a un retard de 1.54 seconde du coté bleu.
+     Le retard software est de 1.5400
+356) Le dossard numéro 311 a un retard de 1.55 seconde du coté bleu.
+     Le retard software est de 1.5500
+357) Le dossard numéro 313 a un retard de 1.56 seconde du coté bleu.
+     Le retard software est de 1.5600
+358) Le dossard numéro 315 a un retard de 1.57 seconde du coté bleu.
+     Le retard software est de 1.5700
+359) Le dossard numéro 317 a un retard de 1.58 seconde du coté bleu.
+     Le retard software est de 1.5800
+360) Le dossard numéro 319 a un retard de 1.59 seconde du coté bleu.
+     Le retard software est de 1.5900
+361) Le dossard numéro 321 a un retard de 1.60 seconde du coté bleu.
+     Le retard software est de 1.6000
+362) Le dossard numéro 323 a un retard de 1.61 seconde du coté bleu.
+     Le retard software est de 1.6100
+363) Le dossard numéro 325 a un retard de 1.62 seconde du coté bleu.
+     Le retard software est de 1.6200
+364) Le dossard numéro 327 a un retard de 1.63 seconde du coté bleu.
+     Le retard software est de 1.6300
+365) Le dossard numéro 329 a un retard de 1.64 seconde du coté bleu.
+     Le retard software est de 1.6400
+366) Le dossard numéro 331 a un retard de 1.65 seconde du coté bleu.
+     Le retard software est de 1.6500
+367) Le dossard numéro 333 a un retard de 1.66 seconde du coté bleu.
+     Le retard software est de 1.6600
+368) Le dossard numéro 335 a un retard de 1.67 seconde du coté bleu.
+     Le retard software est de 1.6700
+369) Le dossard numéro 337 a un retard de 1.68 seconde du coté bleu.
+     Le retard software est de 1.6800
+370) Le dossard numéro 339 a un retard de 1.69 seconde du coté bleu.
+     Le retard software est de 1.6900
+371) Le dossard numéro 341 a un retard de 1.70 seconde du coté bleu.
+     Le retard software est de 1.7000
+372) Le dossard numéro 343 a un retard de 1.71 seconde du coté bleu.
+     Le retard software est de 1.7100
+373) Le dossard numéro 345 a un retard de 1.72 seconde du coté bleu.
+     Le retard software est de 1.7200
+374) Le dossard numéro 347 a un retard de 1.73 seconde du coté bleu.
+     Le retard software est de 1.7300
+375) Le dossard numéro 349 a un retard de 1.74 seconde du coté bleu.
+     Le retard software est de 1.7400
+376) Le dossard numéro 351 a un retard de 1.75 seconde du coté bleu.
+     Le retard software est de 1.7500
+377) Le dossard numéro 353 a un retard de 1.76 seconde du coté bleu.
+     Le retard software est de 1.7600
+378) Le dossard numéro 355 a un retard de 1.77 seconde du coté bleu.
+     Le retard software est de 1.7699
+379) Le dossard numéro 357 a un retard de 1.78 seconde du coté bleu.
+     Le retard software est de 1.7800
+380) Le dossard numéro 359 a un retard de 1.79 seconde du coté bleu.
+     Le retard software est de 1.7900
+381) Le dossard numéro 361 a un retard de 1.80 seconde du coté bleu.
+     Le retard software est de 1.8000
+382) Le dossard numéro 363 a un retard de 1.81 seconde du coté bleu.
+     Le retard software est de 1.8100
+383) Le dossard numéro 365 a un retard de 1.82 seconde du coté bleu.
+     Le retard software est de 1.8200
+384) Le dossard numéro 367 a un retard de 1.83 seconde du coté bleu.
+     Le retard software est de 1.8300
+385) Le dossard numéro 369 a un retard de 1.84 seconde du coté bleu.
+     Le retard software est de 1.8400
+386) Le dossard numéro 371 a un retard de 1.85 seconde du coté bleu.
+     Le retard software est de 1.8500
+387) Le dossard numéro 373 a un retard de 1.86 seconde du coté bleu.
+     Le retard software est de 1.8600
+388) Le dossard numéro 375 a un retard de 1.87 seconde du coté bleu.
+     Le retard software est de 1.8700
+389) Le dossard numéro 377 a un retard de 1.88 seconde du coté bleu.
+     Le retard software est de 1.8800
+390) Le dossard numéro 379 a un retard de 1.89 seconde du coté bleu.
+     Le retard software est de 1.8900
+391) Le dossard numéro 381 a un retard de 1.90 seconde du coté bleu.
+     Le retard software est de 1.9000
+392) Le dossard numéro 383 a un retard de 1.91 seconde du coté bleu.
+     Le retard software est de 1.9100
+393) Le dossard numéro 385 a un retard de 1.92 seconde du coté bleu.
+     Le retard software est de 1.9200
+394) Le dossard numéro 387 a un retard de 1.93 seconde du coté bleu.
+     Le retard software est de 1.9300
+395) Le dossard numéro 389 a un retard de 1.94 seconde du coté bleu.
+     Le retard software est de 1.9400
+396) Le dossard numéro 391 a un retard de 1.95 seconde du coté bleu.
+     Le retard software est de 1.9500
+397) Le dossard numéro 393 a un retard de 1.96 seconde du coté bleu.
+     Le retard software est de 1.9600
+398) Le dossard numéro 395 a un retard de 1.97 seconde du coté bleu.
+     Le retard software est de 1.9700
+399) Le dossard numéro 397 a un retard de 1.98 seconde du coté bleu.
+     Le retard software est de 1.9800
+400) Le dossard numéro 399 a un retard de 1.99 seconde du coté bleu.
+     Le retard software est de 1.9900

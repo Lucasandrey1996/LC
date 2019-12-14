@@ -1,5 +1,0 @@
-nouvelle_feuille_de_temps.txt
-3) Le dossard numéro 12 a un retard de 0.23 seconde du coté rouge.
-     Le retard software est de 0.2300
-4) Le dossard numéro 150 a un retard de 0.11 seconde du coté rouge.
-     Le retard software est de 0.1100
