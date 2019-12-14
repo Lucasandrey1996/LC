@@ -1,0 +1,44 @@
+Tutoriel rapide:
+
+1) Double-clique sur Start_Launch_Control.sh
+
+2) Clique sur "Lancer dans un terminal".
+
+3) Rentre le nom du fichier dans lequel tu veux sauvegarder les départs différés.
+
+4) Tu es dans le menu principale:
+   -la fenêtre noir sert juste à afficher ce qui se passe dans le programme.
+   -le bouton "Qualification" permet de lancer plusieurs départ simultanés rapidements.
+   -les bouton "rouge" et "bleu" servent à définir un retard du coté voulu.
+   -le bouton "Exit" sert à fermer l'application (impossible avec la croix en haut à gauche)
+
+5) Pour lancer un départ depuis la fenêtre des qualifications, il suffit d'appuyer sur "Start".
+
+6) Pour lancer un départ différé, depuis une des deux fenêtre (rouge ou bleu), Il faut:
+   -définir sur quel parcour (rouge ou bleu) est le participant qui doit être retardé 
+	pour changer, utilise "Chg. de côté".
+   -rentrer le numéro de dossard du participant (n'accepte que les nombres entiers !!!)
+	(pas de lettres possibles et les nombres entiers négatifs sont converti en positifs)
+   -rentrer le retard que tu veux lui attribuer en secondes.
+	attention il n'accepte que les nombres entre +5.00 et 0.00 (par exemple: 1, 0.73, .01)
+   -appuyer sur "Select" et une fois les valeures confirmée et les coureurs prêts,
+	clique sur "Start".
+
+7) Lorque un départ est lancé: 
+   -la fenêtre disparait durant le temps du départ.
+   -Les LEDs s'allument sur les portique (1 par seconde).
+   -Le buzzer sonne 1 fois par seconde est maintenu lors de l'ouverture des portiques.
+   -Les portiques sont ouvert après 3 seconde.
+	(3 seconde + le délais pour le côté comprennant un retard)
+
+8) Une fois la séquence de départ derminé:
+   -tout s'éteint et la fenêtre sélectionnée au point 4) s'affiche.
+   -pour revenir au menu principale, utilise le bouton "Menu".
+
+9) En cas d'erreur ou de faute de frappe:
+   -le départ n'est en principe pas lancé.
+   -une fenêtre d'erreur apparait et doit être quittancée.
+   -le programme revient tout seul au menu principal.
+
+
+ 
