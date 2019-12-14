@@ -44,6 +44,7 @@ def Launch():
     global tea_rouge
     global tea_bleu
     global filename
+    global qualif
     
     #definition des E/S
     # Avertisseurs lumineux & sonores
@@ -300,13 +301,15 @@ def Launch():
         clr="bleu"
     else:
         clr="-"
-    depart_effectif=open(filename,"a")
-    depart_effectif.write("%d) " %Nbr_departs)# nombre de départ
-    depart_effectif.write("Le dossard numéro %d" %(dossard))# nombre de départ
-    depart_effectif.write(" a un retard de %.2f seconde " %(delay_s))
-    depart_effectif.write("du coté %s.\r\n" %(clr))
-    depart_effectif.write("     Le retard software est de %.4f\r\n" % (abs(tea_bleu-tea_rouge)))# Difference is:
-    depart_effectif.close()
+        
+    if(not(bool(qualif))):
+        depart_effectif=open(filename,"a")
+        depart_effectif.write("%d) " %Nbr_departs)# nombre de départ
+        depart_effectif.write("Le dossard numéro %d" %(dossard))# nombre de départ
+        depart_effectif.write(" a un retard de %.2f seconde " %(delay_s))
+        depart_effectif.write("du coté %s.\r\n" %(clr))
+        depart_effectif.write("     Le retard software est de %.4f\r\n" % (abs(tea_bleu-tea_rouge)))# Difference is:
+        depart_effectif.close()
     
     #print("Temps d'execution du départ = ", time()-init_time)
     #print("Nombre de tours de boucle   = ", i)
