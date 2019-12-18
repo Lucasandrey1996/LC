@@ -132,7 +132,7 @@ def Launch():
             r6=1
             tea_rouge=time()-init_time
             #print("Electro-aimants Rouge ouverts après : ", time()-init_time)
-            continue
+            
             
         #After 6 delay for blue
         if (tb6<temps_actuel) and (b6==0):
@@ -308,7 +308,7 @@ def Launch():
         depart_effectif.write("Le dossard numéro %d" %(dossard))# nombre de départ
         depart_effectif.write(" a un retard de %.2f seconde " %(delay_s))
         depart_effectif.write("du coté %s.\r\n" %(clr))
-        depart_effectif.write("     Le retard software est de %.4f\r\n" % (abs(tea_bleu-tea_rouge)))# Difference is:
+        depart_effectif.write("     Le retard software est de %.5f\r\n" % (abs(tea_bleu-tea_rouge)))# Difference is:
         depart_effectif.close()
     
     #print("Temps d'execution du départ = ", time()-init_time)
