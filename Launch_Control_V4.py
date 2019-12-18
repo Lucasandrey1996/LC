@@ -679,6 +679,7 @@ while not(bool(stop_GUI)):
     
     if (not(bool(error)))and(bool(ready))and not(bool(stop_GUI)):
         Launch()
+        print(" ")
 #         depart_effectif=open(filename,"a")
 #         depart_effectif.write("%d) " %Nbr_departs)# nombre de départ
 #         depart_effectif.write("le dossard numéro %d a un retard en seconde de :" %(dossard))# nombre de départ
